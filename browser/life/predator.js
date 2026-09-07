@@ -1016,13 +1016,28 @@ class Predator {
     const animating =
       Number.isFinite(this.tailExtendAt) &&
       rawProgress < 1;
-    const ratio = animating
-      ? lerp(
-          this.tailExtndRt,
-          logicalRatio,
-          extendProg
-        )
-      : logicalRatio;
+    const lifeRatio = animating
+  ? lerp(
+      this.tailExtndRt,
+      logicalRatio,
+      extendProg
+    )
+  : logicalRatio;
+
+// Only reduce the tail during the birth animation.
+const birthLengthScale = lerp(
+  0.55,
+  1,
+  clamp(this.birthProgress, 0, 1)
+);
+
+const birthThicknessScale = lerp(
+  0.75,
+  1,
+  clamp(this.birthProgress, 0, 1)
+);
+
+const ratio = lifeRatio * birthLengthScale;
     return {
       ratio,
       logicalRatio,
