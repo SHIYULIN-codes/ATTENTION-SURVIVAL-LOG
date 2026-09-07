@@ -1030,7 +1030,7 @@ class Predator {
       animating,
       startX: tail.startX,
       endX: lerp(tail.startX, tail.endX, ratio),
-      lineWeight: tail.lineWeight * clamp(ratio, 0.8, 1.6),
+      lineWeight: tail.lineWeight * clamp(ratio, 0.9, 1.2),
     };
   }
 
