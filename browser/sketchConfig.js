@@ -881,7 +881,7 @@
   const soundConfig = Object.freeze({
     // The voice limit and event cooldown jointly control sound density.
     enabled: testParams.get("sound") !== "0",
-    masterGain: 1.2,
+    masterGain: 1.5,
     maximumVoices: 4,
     maximumPan: 0.7,
     pauseFadeMs: 500,
@@ -1017,7 +1017,7 @@
       extendGlowAlph: 235,
       extendGlowBlur: 18,
       visualScaleMin: 0.3,
-      visualScaleMax: 4,
+      visualScaleMax: 3,
     }),
     safeGraceMs: 6000,
     vitlDurMs: 10000,

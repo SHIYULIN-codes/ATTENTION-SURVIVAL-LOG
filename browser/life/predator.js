@@ -1159,6 +1159,7 @@ class Predator {
     // keeping the capture line connected as one path.
     if (remaining > 0 && tailLength > 0) {
       const cvrdTailLngth = min(tailLength, remaining);
+      strokeWeight(tailMetrics.lineWeight);
       drawingContext.beginPath();
       drawingContext.moveTo(tailMetrics.startX, Predator.centerY);
       drawingContext.lineTo(

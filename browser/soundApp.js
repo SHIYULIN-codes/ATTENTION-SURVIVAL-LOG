@@ -12,7 +12,7 @@
 // filtering and compression shape the spectrum and dynamic range.
   const fallbackConfig = Object.freeze({
     enabled: true,
-    masterGain: 1.2,
+    masterGain: 1.5,
     maximumVoices: 4,
     maximumPan: 0.7,
     pauseFadeMs: 500,
@@ -54,7 +54,7 @@
       ? performance.now()
       : Date.now();
   const seconds = (milliseconds) => Math.max(0, milliseconds) / 1000;
-  const nmnlMstrGain = () => clamp(Number(config.masterGain) || 1, 0, 1.2);
+  const nmnlMstrGain = () => clamp(Number(config.masterGain) || 1, 0, 1.6);
   const setParam = (param, value, at) => param.setValueAtTime(value, at);
   const cancelParam = (param, at) => param.cancelScheduledValues(at);
   const expRamp = (param, value, at) =>
