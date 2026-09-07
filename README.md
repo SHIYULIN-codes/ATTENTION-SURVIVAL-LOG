@@ -7,7 +7,6 @@
 This interactive experiment translates attentional states into a digital life system. In a micro-ecosystem shaped by the audience's gaze, every look, lingering gaze, and turn away rewrites its balance.
 
 **Live version:** [Enter the shared ecology on Render](RENDER_LINK)
-
 **Project demo:** [Watch the demonstration video](https://vimeo.com/1153044753?fl=tl&fe=ec)
 
 ![Project Visual Overview](<Main image.png>)
