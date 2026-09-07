@@ -1,0 +1,6975 @@
+{
+  "schema": "attention-survival-log/reading-v1",
+  "title": "ATTENTION SURVIVAL LOG",
+  "sessionStartedAt": "2026-08-28T00:01:21.259Z",
+  "savedAt": "2026-09-02T21:58:37.324Z",
+  "sourceFile": "attention-survival-log_reading_2026-08-28T00-01-21-259Z.json",
+  "timeZone": "Europe/London (BST, UTC+01:00)",
+  "range": "2026-08-28 00:00:00–23:59:59 BST",
+  "entries": [
+    {
+      "time": "2026-08-28T00:33:01.324Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T00:33:03.291Z"
+    },
+    {
+      "time": "2026-08-28T00:33:03.292Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T00:33:04.387Z"
+    },
+    {
+      "time": "2026-08-28T00:33:04.454Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T00:33:04.531Z"
+    },
+    {
+      "time": "2026-08-28T00:33:04.724Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T00:33:04.791Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T00:33:05.6Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T00:33:05.692Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T00:33:06.691Z"
+    },
+    {
+      "time": "2026-08-28T00:33:06.864Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T00:33:07.731Z"
+    },
+    {
+      "time": "2026-08-28T00:33:07.824Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T00:33:08.108Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 3,
+      "lastTime": "2026-08-28T00:33:12.779Z"
+    },
+    {
+      "time": "2026-08-28T00:33:12.902Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T00:33:14.585Z"
+    },
+    {
+      "time": "2026-08-28T00:33:14.827Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 3,
+      "lastTime": "2026-08-28T00:33:19.007Z"
+    },
+    {
+      "time": "2026-08-28T00:33:20.105Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T00:33:20.276Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 4,
+      "lastTime": "2026-08-28T00:33:21.914Z"
+    },
+    {
+      "time": "2026-08-28T00:33:22.055Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T00:33:22.188Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T00:33:22.489Z"
+    },
+    {
+      "time": "2026-08-28T00:33:22.727Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T09:53:09.393Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T09:53:17.911Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T09:53:18.146Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T09:53:18.211Z"
+    },
+    {
+      "time": "2026-08-28T09:53:18.311Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T09:53:18.444Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T09:53:18.644Z"
+    },
+    {
+      "time": "2026-08-28T09:53:18.72Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 3,
+      "lastTime": "2026-08-28T09:53:19.044Z"
+    },
+    {
+      "time": "2026-08-28T09:53:19.512Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T09:53:23.047Z"
+    },
+    {
+      "time": "2026-08-28T09:53:23.806Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T09:53:23.95Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T09:53:24.306Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 5,
+      "lastTime": "2026-08-28T09:53:31.391Z"
+    },
+    {
+      "time": "2026-08-28T09:53:52.748Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 4,
+      "lastTime": "2026-08-28T09:55:16.779Z"
+    },
+    {
+      "time": "2026-08-28T10:00:00.016Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T10:17:35.894Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 8,
+      "lastTime": "2026-08-28T10:46:59.367Z"
+    },
+    {
+      "time": "2026-08-28T10:49:52.681Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T10:52:58.958Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 9,
+      "lastTime": "2026-08-28T11:25:01.412Z"
+    },
+    {
+      "time": "2026-08-28T11:25:15.522Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T11:25:17.858Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T11:25:19.475Z"
+    },
+    {
+      "time": "2026-08-28T11:25:19.641Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T11:25:19.708Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T11:25:20.146Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:20.341Z"
+    },
+    {
+      "time": "2026-08-28T11:25:20.541Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T11:25:20.741Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T11:25:22.775Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T11:25:24.424Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:25.69Z"
+    },
+    {
+      "time": "2026-08-28T11:25:25.857Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:25.891Z"
+    },
+    {
+      "time": "2026-08-28T11:25:25.991Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:26.291Z"
+    },
+    {
+      "time": "2026-08-28T11:25:26.334Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:26.357Z"
+    },
+    {
+      "time": "2026-08-28T11:25:27.564Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 3,
+      "lastTime": "2026-08-28T11:25:36.914Z"
+    },
+    {
+      "time": "2026-08-28T11:25:38.822Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:39.755Z"
+    },
+    {
+      "time": "2026-08-28T11:25:41.456Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T11:25:42.806Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:46.521Z"
+    },
+    {
+      "time": "2026-08-28T11:25:46.907Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T11:25:47.226Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:47.304Z"
+    },
+    {
+      "time": "2026-08-28T11:25:47.386Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T11:25:47.571Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T11:25:47.849Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T11:25:48.013Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:51.404Z"
+    },
+    {
+      "time": "2026-08-28T11:25:51.57Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T11:25:52.137Z"
+    },
+    {
+      "time": "2026-08-28T11:25:53.57Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T11:25:55.28Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T11:25:55.487Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T11:25:56.145Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:57.21Z"
+    },
+    {
+      "time": "2026-08-28T11:25:57.457Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:25:59.203Z"
+    },
+    {
+      "time": "2026-08-28T11:26:00.448Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T11:26:01.135Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T11:26:01.39Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T11:26:01.552Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T11:26:01.948Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T11:26:02.921Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:26:03.187Z"
+    },
+    {
+      "time": "2026-08-28T11:26:04.028Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T11:26:06.046Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T11:26:08.161Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T11:26:09.411Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T11:26:09.664Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:26:09.706Z"
+    },
+    {
+      "time": "2026-08-28T11:26:09.764Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:26:09.934Z"
+    },
+    {
+      "time": "2026-08-28T11:26:09.96Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T11:26:09.994Z"
+    },
+    {
+      "time": "2026-08-28T11:26:10.027Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T11:26:10.16Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 3,
+      "lastTime": "2026-08-28T11:26:10.793Z"
+    },
+    {
+      "time": "2026-08-28T11:26:11.407Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T11:26:14.005Z",
+      "species": "Guardian",
+      "message": "A flicker of vigilance swims towards the residue."
+    },
+    {
+      "time": "2026-08-28T11:26:15.159Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T11:26:15.489Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T11:26:15.556Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T11:26:15.897Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T11:26:33.173Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 3,
+      "lastTime": "2026-08-28T11:27:29.174Z"
+    },
+    {
+      "time": "2026-08-28T11:28:24.241Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T11:30:20.816Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T11:30:22.414Z",
+      "species": "Parasite",
+      "message": "A thought that could not settle remains here."
+    },
+    {
+      "time": "2026-08-28T11:37:48.42Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 5,
+      "lastTime": "2026-08-28T11:50:56.927Z"
+    },
+    {
+      "time": "2026-08-28T11:51:05.658Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T12:01:39.002Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 4,
+      "lastTime": "2026-08-28T12:14:11.638Z"
+    },
+    {
+      "time": "2026-08-28T12:14:33.439Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T12:16:35.571Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:16:36.677Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:16:38.645Z"
+    },
+    {
+      "time": "2026-08-28T12:16:41.357Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T12:16:42.294Z"
+    },
+    {
+      "time": "2026-08-28T12:16:42.916Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:16:43.113Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:16:43.162Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:16:43.228Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:16:43.848Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:16:44.155Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T12:16:46.389Z"
+    },
+    {
+      "time": "2026-08-28T12:16:46.526Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:16:46.627Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:16:49.06Z"
+    },
+    {
+      "time": "2026-08-28T12:16:49.36Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:16:50.159Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T12:16:50.693Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:16:50.76Z"
+    },
+    {
+      "time": "2026-08-28T12:16:50.992Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:16:51.427Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:17:12.058Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:17:13.865Z"
+    },
+    {
+      "time": "2026-08-28T12:17:16.573Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:17:16.773Z"
+    },
+    {
+      "time": "2026-08-28T12:17:22.607Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:17:22.972Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:17:26.08Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T12:17:27.147Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:17:27.246Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:17:27.613Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:17:27.713Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 3,
+      "lastTime": "2026-08-28T12:17:29.58Z"
+    },
+    {
+      "time": "2026-08-28T12:19:37.839Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T12:19:49.633Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:19:51.612Z"
+    },
+    {
+      "time": "2026-08-28T12:19:53.291Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:19:54.132Z"
+    },
+    {
+      "time": "2026-08-28T12:19:54.232Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:19:54.298Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:19:54.898Z"
+    },
+    {
+      "time": "2026-08-28T12:19:55.032Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:19:55.837Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:19:55.907Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:19:56.382Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:19:56.719Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:19:57.237Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:19:57.69Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:19:57.79Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:19:59.297Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:19:59.323Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:19:59.889Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:20:00.223Z"
+    },
+    {
+      "time": "2026-08-28T12:20:00.527Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:20:01.293Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:20:01.594Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T12:20:02.027Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:20:02.193Z"
+    },
+    {
+      "time": "2026-08-28T12:20:02.36Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:20:02.393Z"
+    },
+    {
+      "time": "2026-08-28T12:20:03.285Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:03.495Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:20:03.623Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:03.86Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:20:04.097Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:20:04.535Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:20:04.601Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:04.634Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:20:08.638Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:20:08.838Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T12:20:10.779Z",
+      "species": "Guardian",
+      "message": "The lure’s faint glow set the Guardian’s marker in motion."
+    },
+    {
+      "time": "2026-08-28T12:20:11.13Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:20:11.641Z",
+      "species": "Parasite",
+      "message": "A thought that could not settle remains here."
+    },
+    {
+      "time": "2026-08-28T12:20:11.85Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:12.556Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T12:20:17.416Z"
+    },
+    {
+      "time": "2026-08-28T12:20:19.692Z",
+      "species": "Guardian",
+      "message": "Abundance and scarcity come into view together."
+    },
+    {
+      "time": "2026-08-28T12:20:20.275Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T12:20:21.195Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:20:21.299Z"
+    },
+    {
+      "time": "2026-08-28T12:20:22.191Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:23.174Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:20:24.211Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:24.482Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:20:25.115Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T12:20:27.949Z"
+    },
+    {
+      "time": "2026-08-28T12:20:28.431Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:28.457Z",
+      "species": "Guardian",
+      "message": "The Guardian opens space for other life."
+    },
+    {
+      "time": "2026-08-28T12:20:28.723Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:20:28.856Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:29.182Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:20:29.357Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:29.424Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:20:30.702Z",
+      "species": "Guardian",
+      "message": "Diversity slowly returns at the edges."
+    },
+    {
+      "time": "2026-08-28T12:20:31.156Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:31.49Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:20:31.956Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:20:32.323Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:20:33.489Z"
+    },
+    {
+      "time": "2026-08-28T12:20:34.865Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:20:36.939Z"
+    },
+    {
+      "time": "2026-08-28T12:20:39.672Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:20:39.84Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:20:42.705Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:20:43.304Z"
+    },
+    {
+      "time": "2026-08-28T12:20:43.504Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:20:43.879Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:20:44.063Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:20:45.5Z"
+    },
+    {
+      "time": "2026-08-28T12:20:55.648Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 3,
+      "lastTime": "2026-08-28T12:21:51.679Z"
+    },
+    {
+      "time": "2026-08-28T12:22:53.845Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T12:25:57.784Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T12:29:57.329Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T12:29:59.428Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:30:57.1Z"
+    },
+    {
+      "time": "2026-08-28T12:31:03.632Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T12:32:30.23Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T12:32:32.629Z",
+      "species": "Parasite",
+      "message": "A thought that could not settle remains here."
+    },
+    {
+      "time": "2026-08-28T12:40:03.174Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T12:40:06.037Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T12:45:00.829Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T12:45:27.962Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T12:45:30.862Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T12:45:39.71Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T12:45:59.308Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T12:46:31.006Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:46:32.805Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:46:32.986Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:46:34.246Z"
+    },
+    {
+      "time": "2026-08-28T12:46:34.429Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:46:34.497Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:46:34.53Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:46:34.946Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:46:35.05Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T12:46:39.25Z"
+    },
+    {
+      "time": "2026-08-28T12:46:47.628Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:46:47.936Z"
+    },
+    {
+      "time": "2026-08-28T12:46:49.601Z",
+      "species": "Roamer",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T12:46:50.436Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:46:51.269Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:46:53.502Z"
+    },
+    {
+      "time": "2026-08-28T12:47:00.022Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T12:47:01.052Z"
+    },
+    {
+      "time": "2026-08-28T12:47:01.197Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T12:47:01.934Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:47:02.234Z"
+    },
+    {
+      "time": "2026-08-28T12:47:02.901Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:47:03.367Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:47:04.301Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:47:05.105Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:47:05.905Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:47:06.005Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:47:06.538Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:47:07.004Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:47:07.288Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:47:07.388Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:47:07.421Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:47:07.521Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 4,
+      "lastTime": "2026-08-28T12:47:12.354Z"
+    },
+    {
+      "time": "2026-08-28T12:47:14.033Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:47:14.133Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:47:14.233Z"
+    },
+    {
+      "time": "2026-08-28T12:47:14.466Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T12:47:17.47Z"
+    },
+    {
+      "time": "2026-08-28T12:47:19.418Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T12:47:20.756Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:47:21.641Z"
+    },
+    {
+      "time": "2026-08-28T12:47:23.02Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T12:47:23.02Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T12:47:24.832Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T12:47:25.795Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:47:28.559Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:47:29.059Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T12:47:31.569Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T12:47:31.827Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:47:34.008Z"
+    },
+    {
+      "time": "2026-08-28T12:47:34.62Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T12:47:34.62Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T12:47:34.694Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T12:47:36.902Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:47:37.04Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:47:37.388Z"
+    },
+    {
+      "time": "2026-08-28T12:47:37.444Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T12:47:37.55Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:47:37.806Z"
+    },
+    {
+      "time": "2026-08-28T12:47:38.128Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T12:47:38.159Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:47:39.134Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T12:47:40.058Z"
+    },
+    {
+      "time": "2026-08-28T12:47:40.145Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T12:47:49.015Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T12:47:57.489Z",
+      "species": "Parasite",
+      "message": "A thought that could not settle remains here."
+    },
+    {
+      "time": "2026-08-28T12:47:57.79Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 4,
+      "lastTime": "2026-08-28T12:49:21.858Z"
+    },
+    {
+      "time": "2026-08-28T12:49:48.49Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T12:49:49.858Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T12:51:04.427Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T12:55:57.535Z",
+      "species": "Roamer",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T12:56:06.867Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T12:57:20.337Z",
+      "species": "DeepDiver",
+      "message": "A life fades.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:00:32.3Z"
+    },
+    {
+      "time": "2026-08-28T13:01:24.901Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:10:08.685Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:10:44.789Z"
+    },
+    {
+      "time": "2026-08-28T13:13:41.527Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:15:15.799Z",
+      "species": "Parasite",
+      "message": "A thought that could not settle remains here."
+    },
+    {
+      "time": "2026-08-28T13:15:21.785Z",
+      "species": "DeepDiver",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:15:51.319Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T13:15:51.752Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T13:16:45.157Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:19:00.691Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T13:19:01.323Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T13:19:20.867Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:23:23.738Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T13:23:46.87Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:24:25.11Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:27.1Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:27.166Z",
+      "species": "DeepDiver",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:24:27.96Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:28.045Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:28.199Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:28.932Z"
+    },
+    {
+      "time": "2026-08-28T13:24:29.381Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:30.05Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:32.247Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:32.358Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:32.412Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:32.442Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:24:32.608Z"
+    },
+    {
+      "time": "2026-08-28T13:24:32.747Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:33.478Z"
+    },
+    {
+      "time": "2026-08-28T13:24:33.945Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:34.045Z"
+    },
+    {
+      "time": "2026-08-28T13:24:34.911Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:35.277Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T13:24:36.343Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:36.444Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:36.481Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:24:36.51Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:36.545Z"
+    },
+    {
+      "time": "2026-08-28T13:24:36.577Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T13:24:36.644Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:24:36.777Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:37.01Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T13:24:37.179Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:37.21Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:37.244Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:24:37.577Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:38.145Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:38.478Z"
+    },
+    {
+      "time": "2026-08-28T13:24:39.631Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:24:41.564Z"
+    },
+    {
+      "time": "2026-08-28T13:24:41.598Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:41.664Z"
+    },
+    {
+      "time": "2026-08-28T13:24:41.697Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T13:24:41.897Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:42.597Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:42.864Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T13:24:43.398Z"
+    },
+    {
+      "time": "2026-08-28T13:24:43.464Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 5,
+      "lastTime": "2026-08-28T13:24:44.672Z"
+    },
+    {
+      "time": "2026-08-28T13:24:45.438Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:46.542Z"
+    },
+    {
+      "time": "2026-08-28T13:24:46.609Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:47.309Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:47.942Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:48.62Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:49.034Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 6,
+      "lastTime": "2026-08-28T13:24:51.092Z"
+    },
+    {
+      "time": "2026-08-28T13:24:53.134Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:53.192Z"
+    },
+    {
+      "time": "2026-08-28T13:24:53.752Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T13:24:55.338Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:56.291Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:57.185Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:24:57.421Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:24:57.529Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:57.728Z"
+    },
+    {
+      "time": "2026-08-28T13:24:57.887Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:58.978Z"
+    },
+    {
+      "time": "2026-08-28T13:24:59.045Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T13:24:59.179Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:24:59.425Z"
+    },
+    {
+      "time": "2026-08-28T13:24:59.912Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T13:25:01.138Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:25:01.987Z"
+    },
+    {
+      "time": "2026-08-28T13:25:02.419Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:25:02.478Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:25:03.865Z"
+    },
+    {
+      "time": "2026-08-28T13:25:04.016Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:25:04.207Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:25:04.391Z"
+    },
+    {
+      "time": "2026-08-28T13:25:04.424Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 7,
+      "lastTime": "2026-08-28T13:25:06.727Z"
+    },
+    {
+      "time": "2026-08-28T13:25:06.911Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:25:07Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T13:25:07.403Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:25:08.935Z"
+    },
+    {
+      "time": "2026-08-28T13:25:09.002Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 6,
+      "lastTime": "2026-08-28T13:25:10.169Z"
+    },
+    {
+      "time": "2026-08-28T13:25:11.631Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:11.823Z"
+    },
+    {
+      "time": "2026-08-28T13:25:11.91Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:13.836Z"
+    },
+    {
+      "time": "2026-08-28T13:25:15.83Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:25:16.901Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T13:25:21.314Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T13:25:21.315Z",
+      "species": "Parasite",
+      "message": "A Parasite emerges."
+    },
+    {
+      "time": "2026-08-28T13:25:21.315Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T13:25:24.334Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:25:24.648Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:25:24.703Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:24.94Z"
+    },
+    {
+      "time": "2026-08-28T13:25:25.159Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:25.392Z"
+    },
+    {
+      "time": "2026-08-28T13:25:25.657Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:25:25.852Z"
+    },
+    {
+      "time": "2026-08-28T13:25:26.091Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:25:26.428Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T13:25:27.003Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:27.502Z"
+    },
+    {
+      "time": "2026-08-28T13:25:27.821Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:28.075Z"
+    },
+    {
+      "time": "2026-08-28T13:25:28.15Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:25:29.538Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:25:31.007Z"
+    },
+    {
+      "time": "2026-08-28T13:25:31.392Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:32.153Z"
+    },
+    {
+      "time": "2026-08-28T13:25:32.262Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:32.568Z"
+    },
+    {
+      "time": "2026-08-28T13:25:33.212Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:25:33.398Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:33.957Z"
+    },
+    {
+      "time": "2026-08-28T13:25:34.884Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:25:34.931Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:25:34.991Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:25:35.054Z"
+    },
+    {
+      "time": "2026-08-28T13:25:48.485Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:27:12.494Z"
+    },
+    {
+      "time": "2026-08-28T13:27:47.863Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T13:29:47.141Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T13:29:55.706Z",
+      "species": "Parasite",
+      "message": "A thought that could not settle remains here."
+    },
+    {
+      "time": "2026-08-28T13:30:13.955Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T13:32:45.998Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T13:32:47.896Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T13:34:23.788Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:36:28.522Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T13:39:40.78Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:39:59.418Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T13:39:59.782Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T13:53:26.346Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:53:26.679Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:53:27.127Z"
+    },
+    {
+      "time": "2026-08-28T13:53:27.771Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:53:28.554Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:53:29.373Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T13:53:31.718Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:53:31.745Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:53:31.782Z"
+    },
+    {
+      "time": "2026-08-28T13:53:47.744Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T13:53:48.278Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:53:49.689Z"
+    },
+    {
+      "time": "2026-08-28T13:53:49.722Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:53:49.822Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:53:50.089Z"
+    },
+    {
+      "time": "2026-08-28T13:53:50.289Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:53:50.322Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:53:51.123Z"
+    },
+    {
+      "time": "2026-08-28T13:53:51.222Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T13:53:51.256Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:53:51.303Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:53:51.489Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:53:51.722Z"
+    },
+    {
+      "time": "2026-08-28T13:53:51.958Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T13:53:51.997Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:53:52.846Z"
+    },
+    {
+      "time": "2026-08-28T13:53:52.984Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:53:53.255Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 9,
+      "lastTime": "2026-08-28T13:53:57.404Z"
+    },
+    {
+      "time": "2026-08-28T13:53:58.249Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T13:53:58.519Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:53:58.627Z"
+    },
+    {
+      "time": "2026-08-28T13:53:58.953Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:53:59.246Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:54:00.817Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:54:00.879Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:54:00.979Z"
+    },
+    {
+      "time": "2026-08-28T13:54:01.679Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:54:01.712Z",
+      "species": "Guardian",
+      "message": "Lingering attention stirred the Guardian’s marker."
+    },
+    {
+      "time": "2026-08-28T13:54:01.913Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 6,
+      "lastTime": "2026-08-28T13:54:05.12Z"
+    },
+    {
+      "time": "2026-08-28T13:54:05.458Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:54:05.958Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T13:54:06.556Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T13:54:06.957Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:54:07.024Z"
+    },
+    {
+      "time": "2026-08-28T13:54:07.151Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:54:07.151Z"
+    },
+    {
+      "time": "2026-08-28T13:54:07.758Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:54:09.137Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:54:10.637Z"
+    },
+    {
+      "time": "2026-08-28T13:54:10.939Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:54:10.972Z"
+    },
+    {
+      "time": "2026-08-28T13:54:11.254Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:54:11.282Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:54:11.637Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 11,
+      "lastTime": "2026-08-28T13:54:14.346Z"
+    },
+    {
+      "time": "2026-08-28T13:54:14.64Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:54:14.906Z"
+    },
+    {
+      "time": "2026-08-28T13:54:15.039Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:54:15.073Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:54:17.268Z"
+    },
+    {
+      "time": "2026-08-28T13:54:17.328Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:54:20.173Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T13:54:20.551Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T13:54:20.551Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T13:54:23.044Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:54:23.19Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:54:26.543Z"
+    },
+    {
+      "time": "2026-08-28T13:54:26.595Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:54:26.694Z"
+    },
+    {
+      "time": "2026-08-28T13:54:26.906Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:54:27.071Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:54:27.567Z"
+    },
+    {
+      "time": "2026-08-28T13:54:27.69Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:54:27.717Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:54:30.168Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:54:30.215Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T13:54:31.313Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T13:54:31.384Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T13:54:31.45Z"
+    },
+    {
+      "time": "2026-08-28T13:54:48.784Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T13:54:57.184Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 4,
+      "lastTime": "2026-08-28T13:56:21.232Z"
+    },
+    {
+      "time": "2026-08-28T13:56:39.657Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T13:56:49.257Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T13:57:17.275Z"
+    },
+    {
+      "time": "2026-08-28T14:00:01.293Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T14:01:55.684Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T14:02:05.772Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T14:03:59.034Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T14:04:07.633Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T14:10:07.233Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T14:10:10.499Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T14:12:28.904Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T14:12:31.443Z"
+    },
+    {
+      "time": "2026-08-28T14:12:31.692Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T14:12:32.761Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T14:12:33.661Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:12:34.032Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 6,
+      "lastTime": "2026-08-28T14:12:34.998Z"
+    },
+    {
+      "time": "2026-08-28T14:12:35.685Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:12:35.858Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T14:12:36.209Z"
+    },
+    {
+      "time": "2026-08-28T14:12:36.316Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:12:36.906Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T14:12:37.377Z"
+    },
+    {
+      "time": "2026-08-28T14:12:40.481Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:12:41.152Z"
+    },
+    {
+      "time": "2026-08-28T14:12:41.217Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T14:12:44.46Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T14:12:47.188Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:12:48.992Z"
+    },
+    {
+      "time": "2026-08-28T14:12:49.168Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T14:12:49.315Z",
+      "species": "Predator",
+      "message": "A Predator emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:12:49.761Z"
+    },
+    {
+      "time": "2026-08-28T14:12:49.763Z",
+      "species": "Parasite",
+      "message": "A Parasite emerges."
+    },
+    {
+      "time": "2026-08-28T14:12:49.763Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T14:12:51.351Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:12:52.854Z"
+    },
+    {
+      "time": "2026-08-28T14:12:53.096Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T14:12:53.129Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:12:53.442Z"
+    },
+    {
+      "time": "2026-08-28T14:12:53.542Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:12:53.829Z"
+    },
+    {
+      "time": "2026-08-28T14:12:54.255Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T14:12:54.971Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T14:12:55.055Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T14:12:55.641Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T14:12:56.1Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:12:56.271Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:12:57.229Z"
+    },
+    {
+      "time": "2026-08-28T14:12:57.372Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T14:12:58.794Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T14:12:59.2Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:13:00.81Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:13:02.183Z"
+    },
+    {
+      "time": "2026-08-28T14:13:02.389Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:13:02.549Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T14:13:02.753Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:13:03.053Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T14:13:03.678Z"
+    },
+    {
+      "time": "2026-08-28T14:13:03.778Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T14:13:03.9Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T14:13:04.024Z"
+    },
+    {
+      "time": "2026-08-28T14:13:04.061Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T14:13:04.157Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T14:13:04.223Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T14:13:04.47Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:13:04.64Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:13:04.903Z"
+    },
+    {
+      "time": "2026-08-28T14:13:04.936Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T14:13:05.003Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:13:05.276Z"
+    },
+    {
+      "time": "2026-08-28T14:13:10.13Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T14:13:22.066Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T14:13:33.169Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T14:13:54.832Z",
+      "species": "Guardian",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T14:14:01.199Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 3,
+      "lastTime": "2026-08-28T14:14:57.209Z"
+    },
+    {
+      "time": "2026-08-28T14:15:15.638Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T14:15:25.238Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T14:15:55.571Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T14:15:57.504Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T14:17:57.101Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T14:19:01.773Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T14:22:50.319Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 24,
+      "lastTime": "2026-08-28T14:22:59.255Z"
+    },
+    {
+      "time": "2026-08-28T14:22:59.322Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:22:59.655Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T14:22:59.821Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T14:23:03.125Z"
+    },
+    {
+      "time": "2026-08-28T14:23:06.058Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T14:23:06.395Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:23:06.425Z"
+    },
+    {
+      "time": "2026-08-28T14:23:07.345Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T14:23:07.467Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T14:23:08.179Z"
+    },
+    {
+      "time": "2026-08-28T14:25:18.798Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T14:27:52.242Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 3,
+      "lastTime": "2026-08-28T14:30:04.414Z"
+    },
+    {
+      "time": "2026-08-28T14:30:13.548Z",
+      "species": "Parasite",
+      "message": "A thought that could not settle remains here."
+    },
+    {
+      "time": "2026-08-28T14:35:38.107Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:44:02.454Z"
+    },
+    {
+      "time": "2026-08-28T14:44:30.325Z",
+      "species": "Parasite",
+      "message": "A life fades.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:45:58.564Z"
+    },
+    {
+      "time": "2026-08-28T14:46:25.962Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:50:37.912Z"
+    },
+    {
+      "time": "2026-08-28T14:55:14.647Z",
+      "species": "Parasite",
+      "message": "A life fades.",
+      "count": 2,
+      "lastTime": "2026-08-28T14:57:15.014Z"
+    },
+    {
+      "time": "2026-08-28T15:08:10.265Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:10:29.073Z"
+    },
+    {
+      "time": "2026-08-28T15:10:33.369Z",
+      "species": "Parasite",
+      "message": "A thought that could not settle remains here."
+    },
+    {
+      "time": "2026-08-28T15:10:57.096Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T15:11:03.829Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:11:58.696Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T15:14:27.736Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T15:18:58.508Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:21:40.773Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:21:42.154Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:21:42.297Z"
+    },
+    {
+      "time": "2026-08-28T15:21:43.326Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:21:44.002Z"
+    },
+    {
+      "time": "2026-08-28T15:21:44.063Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:21:44.13Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:21:44.2Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:21:44.538Z"
+    },
+    {
+      "time": "2026-08-28T15:21:44.972Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:21:45.204Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:21:47.172Z"
+    },
+    {
+      "time": "2026-08-28T15:21:47.919Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:21:47.984Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:21:48.101Z"
+    },
+    {
+      "time": "2026-08-28T15:21:48.136Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:21:48.267Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:21:48.344Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:21:48.372Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 9,
+      "lastTime": "2026-08-28T15:21:50.962Z"
+    },
+    {
+      "time": "2026-08-28T15:21:50.995Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:21:51.029Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:21:51.53Z"
+    },
+    {
+      "time": "2026-08-28T15:21:52.395Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:21:52.562Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:21:53.162Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:21:53.295Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:21:53.362Z"
+    },
+    {
+      "time": "2026-08-28T15:21:53.395Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:21:53.463Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:21:54.929Z"
+    },
+    {
+      "time": "2026-08-28T15:21:55.228Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:21:55.595Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 10,
+      "lastTime": "2026-08-28T15:21:58.418Z"
+    },
+    {
+      "time": "2026-08-28T15:21:58.474Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T15:21:59.241Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:21:59.286Z"
+    },
+    {
+      "time": "2026-08-28T15:21:59.307Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T15:21:59.34Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:21:59.374Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:21:59.407Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:21:59.544Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:21:59.913Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:22:00.181Z"
+    },
+    {
+      "time": "2026-08-28T15:22:00.378Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:22:00.514Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:00.611Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T15:22:00.649Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:00.678Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:00.712Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T15:22:00.744Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:00.844Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:01.682Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:01.857Z"
+    },
+    {
+      "time": "2026-08-28T15:22:02.003Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:02.594Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:22:03.837Z"
+    },
+    {
+      "time": "2026-08-28T15:22:04.257Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:04.257Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:05.085Z"
+    },
+    {
+      "time": "2026-08-28T15:22:05.152Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:05.285Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:05.861Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:22:06.128Z"
+    },
+    {
+      "time": "2026-08-28T15:22:06.181Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:06.273Z"
+    },
+    {
+      "time": "2026-08-28T15:22:07.285Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:07.391Z"
+    },
+    {
+      "time": "2026-08-28T15:22:07.485Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:08.135Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:22:08.505Z"
+    },
+    {
+      "time": "2026-08-28T15:22:09.102Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:09.202Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:09.414Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:22:09.614Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:09.881Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:10.049Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:10.147Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:22:10.814Z"
+    },
+    {
+      "time": "2026-08-28T15:22:10.914Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:11.677Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:22:13.131Z"
+    },
+    {
+      "time": "2026-08-28T15:22:14.051Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:14.419Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:22:18.794Z"
+    },
+    {
+      "time": "2026-08-28T15:22:19.022Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:19.546Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T15:22:19.546Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T15:22:20.351Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:20.601Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T15:22:21.474Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:22.721Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:23.064Z"
+    },
+    {
+      "time": "2026-08-28T15:22:23.655Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:24.022Z",
+      "species": "Guardian",
+      "message": "A flicker of vigilance swims towards the residue."
+    },
+    {
+      "time": "2026-08-28T15:22:25.271Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:26.974Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:27.298Z"
+    },
+    {
+      "time": "2026-08-28T15:22:28.986Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:29.098Z"
+    },
+    {
+      "time": "2026-08-28T15:22:29.24Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:29.745Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:30.795Z"
+    },
+    {
+      "time": "2026-08-28T15:22:30.99Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:22:31.612Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:31.645Z"
+    },
+    {
+      "time": "2026-08-28T15:22:31.684Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:22:31.749Z"
+    },
+    {
+      "time": "2026-08-28T15:22:31.817Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:31.985Z"
+    },
+    {
+      "time": "2026-08-28T15:22:32.024Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:32.495Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:22:32.64Z"
+    },
+    {
+      "time": "2026-08-28T15:22:34.69Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:22:35.523Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:22:35.956Z"
+    },
+    {
+      "time": "2026-08-28T15:22:36.62Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:22:37.087Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:37.129Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:22:37.236Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:37.269Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:22:38.023Z"
+    },
+    {
+      "time": "2026-08-28T15:22:38.938Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:22:39.052Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:22:39.171Z"
+    },
+    {
+      "time": "2026-08-28T15:22:39.442Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:39.906Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:41.218Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:22:42.442Z"
+    },
+    {
+      "time": "2026-08-28T15:22:44.013Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:22:47.62Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:47.919Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T15:22:47.919Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T15:22:51.364Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T15:22:53.335Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:22:54.201Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:22:55.438Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:22:58.508Z"
+    },
+    {
+      "time": "2026-08-28T15:22:58.86Z",
+      "species": "Predator",
+      "message": "Your gaze has nourished a Predator."
+    },
+    {
+      "time": "2026-08-28T15:23:00.125Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:00.926Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:23:01.023Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:01.129Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:23:01.261Z"
+    },
+    {
+      "time": "2026-08-28T15:23:01.538Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:04.165Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:23:04.481Z"
+    },
+    {
+      "time": "2026-08-28T15:23:04.507Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:04.54Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:23:04.874Z"
+    },
+    {
+      "time": "2026-08-28T15:23:10.247Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:10.638Z",
+      "species": "Predator",
+      "message": "Your gaze has nourished a Predator."
+    },
+    {
+      "time": "2026-08-28T15:23:11.476Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:23:14.852Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:23:15.201Z"
+    },
+    {
+      "time": "2026-08-28T15:23:19.655Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:19.759Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:23:20.748Z"
+    },
+    {
+      "time": "2026-08-28T15:23:22.113Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:23:22.205Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:23.801Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:23:24.654Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:23:24.704Z"
+    },
+    {
+      "time": "2026-08-28T15:23:25.925Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:23:28.676Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:23:29.605Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 11,
+      "lastTime": "2026-08-28T15:23:36.107Z"
+    },
+    {
+      "time": "2026-08-28T15:23:36.14Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:23:36.424Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:23:36.528Z"
+    },
+    {
+      "time": "2026-08-28T15:23:36.557Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:36.89Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:23:38.14Z"
+    },
+    {
+      "time": "2026-08-28T15:23:38.361Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:39.273Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:23:40.173Z"
+    },
+    {
+      "time": "2026-08-28T15:23:42.35Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:45.661Z",
+      "species": "Predator",
+      "message": "A lure has gained new attention."
+    },
+    {
+      "time": "2026-08-28T15:23:48.979Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:23:54.305Z"
+    },
+    {
+      "time": "2026-08-28T15:23:54.417Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:54.896Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:23:55.558Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:55.65Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:23:57.705Z"
+    },
+    {
+      "time": "2026-08-28T15:23:57.737Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:57.771Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T15:23:57.881Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:23:57.919Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T15:23:58.046Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:23:59.883Z"
+    },
+    {
+      "time": "2026-08-28T15:23:59.912Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:23:59.946Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:24:01.062Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:24:12.944Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:26:04.948Z"
+    },
+    {
+      "time": "2026-08-28T15:26:13.943Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T15:26:32.951Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T15:29:23.153Z",
+      "species": "Parasite",
+      "message": "A life fades.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:34:54.489Z"
+    },
+    {
+      "time": "2026-08-28T15:41:09.808Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:46:38.761Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:47:17.942Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:47:17.987Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T15:47:18.054Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:47:18.148Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:47:18.433Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:47:19.877Z"
+    },
+    {
+      "time": "2026-08-28T15:47:20.069Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:47:20.503Z"
+    },
+    {
+      "time": "2026-08-28T15:47:20.703Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:47:20.836Z"
+    },
+    {
+      "time": "2026-08-28T15:47:21.203Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:47:21.373Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:47:22.083Z"
+    },
+    {
+      "time": "2026-08-28T15:47:22.644Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:47:23.577Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:47:24.161Z"
+    },
+    {
+      "time": "2026-08-28T15:47:24.29Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:47:30.605Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:47:31.005Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:47:31.606Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:47:35.251Z"
+    },
+    {
+      "time": "2026-08-28T15:47:35.287Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:47:46.524Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T15:47:58.548Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:47:58.922Z"
+    },
+    {
+      "time": "2026-08-28T15:47:58.947Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:48:05.138Z"
+    },
+    {
+      "time": "2026-08-28T15:48:05.371Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:48:05.438Z"
+    },
+    {
+      "time": "2026-08-28T15:48:05.474Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:48:08.716Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:48:21.04Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:49:17.055Z"
+    },
+    {
+      "time": "2026-08-28T15:49:38.261Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:49:40.252Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:49:40.586Z"
+    },
+    {
+      "time": "2026-08-28T15:49:43.807Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T15:49:43.807Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T15:49:44.13Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:49:44.588Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:49:46.644Z"
+    },
+    {
+      "time": "2026-08-28T15:49:47.201Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:49:49.53Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:49:49.883Z"
+    },
+    {
+      "time": "2026-08-28T15:49:51.333Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:49:51.537Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 8,
+      "lastTime": "2026-08-28T15:49:55.171Z"
+    },
+    {
+      "time": "2026-08-28T15:49:55.204Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:49:55.27Z"
+    },
+    {
+      "time": "2026-08-28T15:49:55.334Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:49:55.837Z"
+    },
+    {
+      "time": "2026-08-28T15:49:55.938Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:49:56.112Z"
+    },
+    {
+      "time": "2026-08-28T15:49:56.254Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:49:56.287Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:49:56.386Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:49:58.276Z"
+    },
+    {
+      "time": "2026-08-28T15:49:58.37Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:49:58.553Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:49:59.008Z"
+    },
+    {
+      "time": "2026-08-28T15:49:59.041Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:49:59.607Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 6,
+      "lastTime": "2026-08-28T15:50:01.578Z"
+    },
+    {
+      "time": "2026-08-28T15:50:01.99Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:02.711Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:50:03.481Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:50:04.981Z"
+    },
+    {
+      "time": "2026-08-28T15:50:09.828Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:50:10.028Z"
+    },
+    {
+      "time": "2026-08-28T15:50:10.093Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:50:10.726Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:10.893Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:50:10.993Z"
+    },
+    {
+      "time": "2026-08-28T15:50:11.161Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T15:50:12.273Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:14.076Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:14.745Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T15:50:15.009Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:50:15.423Z"
+    },
+    {
+      "time": "2026-08-28T15:50:16.145Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:16.376Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:50:16.409Z"
+    },
+    {
+      "time": "2026-08-28T15:50:16.676Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:16.882Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:50:16.883Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:16.976Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:17.143Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:17.276Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:17.509Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:50:18.143Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:18.443Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:18.975Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:50:19.884Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:19.917Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:20.355Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:20.888Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:21.027Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:22.087Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:50:22.562Z"
+    },
+    {
+      "time": "2026-08-28T15:50:22.863Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:50:29.136Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 7,
+      "lastTime": "2026-08-28T15:50:33.14Z"
+    },
+    {
+      "time": "2026-08-28T15:50:33.275Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:50:34.418Z"
+    },
+    {
+      "time": "2026-08-28T15:50:34.444Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:50:34.644Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:34.677Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 6,
+      "lastTime": "2026-08-28T15:50:35.711Z"
+    },
+    {
+      "time": "2026-08-28T15:50:35.844Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:50:36.11Z"
+    },
+    {
+      "time": "2026-08-28T15:50:36.444Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:50:36.812Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:50:39.748Z"
+    },
+    {
+      "time": "2026-08-28T15:50:40.189Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:50:41.551Z"
+    },
+    {
+      "time": "2026-08-28T15:50:43.085Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:50:43.522Z"
+    },
+    {
+      "time": "2026-08-28T15:50:43.554Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:50:44.422Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:50:46.93Z"
+    },
+    {
+      "time": "2026-08-28T15:50:51.33Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:50:53.3Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:53.5Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:50:55.2Z"
+    },
+    {
+      "time": "2026-08-28T15:50:55.5Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:50:56.033Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:50:56.2Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:50:56.5Z"
+    },
+    {
+      "time": "2026-08-28T15:50:57.499Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:50:58.171Z"
+    },
+    {
+      "time": "2026-08-28T15:50:58.444Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:50:58.737Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:51:00.608Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:00.67Z"
+    },
+    {
+      "time": "2026-08-28T15:51:04.473Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:51:04.499Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:51:05.04Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T15:51:06.515Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:07.205Z"
+    },
+    {
+      "time": "2026-08-28T15:51:07.266Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:51:07.473Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:51:09.565Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:51:10.51Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:51:11.269Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:11.679Z"
+    },
+    {
+      "time": "2026-08-28T15:51:12.485Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:51:14.331Z"
+    },
+    {
+      "time": "2026-08-28T15:51:16.907Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:17.601Z"
+    },
+    {
+      "time": "2026-08-28T15:51:18.201Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:51:18.235Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:51:18.3Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:51:19.139Z"
+    },
+    {
+      "time": "2026-08-28T15:51:19.271Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:19.639Z"
+    },
+    {
+      "time": "2026-08-28T15:51:21.314Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:51:23.465Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:24.405Z"
+    },
+    {
+      "time": "2026-08-28T15:51:25.161Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T15:51:25.162Z",
+      "species": "Parasite",
+      "message": "A Parasite emerges."
+    },
+    {
+      "time": "2026-08-28T15:51:25.162Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T15:51:25.615Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:51:29.035Z"
+    },
+    {
+      "time": "2026-08-28T15:51:30.355Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:51:31.683Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:51:32.38Z"
+    },
+    {
+      "time": "2026-08-28T15:51:32.633Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:51:34.108Z"
+    },
+    {
+      "time": "2026-08-28T15:51:34.795Z",
+      "species": "Guardian",
+      "message": "A flicker of vigilance swims towards the residue."
+    },
+    {
+      "time": "2026-08-28T15:51:37.557Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:51:38.086Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:51:40.065Z"
+    },
+    {
+      "time": "2026-08-28T15:51:40.133Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:41.791Z"
+    },
+    {
+      "time": "2026-08-28T15:51:41.823Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:51:41.969Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:51:47.972Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:48.206Z"
+    },
+    {
+      "time": "2026-08-28T15:51:52.109Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:51:54.068Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:54.238Z"
+    },
+    {
+      "time": "2026-08-28T15:51:54.972Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:51:56.084Z"
+    },
+    {
+      "time": "2026-08-28T15:51:57.292Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:51:58.382Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:51:59.446Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:00.692Z",
+      "species": "Predator",
+      "message": "A lure has gained new attention."
+    },
+    {
+      "time": "2026-08-28T15:52:03.301Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:03.395Z"
+    },
+    {
+      "time": "2026-08-28T15:52:04.037Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:52:09.665Z"
+    },
+    {
+      "time": "2026-08-28T15:52:12.565Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:12.74Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:12.986Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:52:14.948Z"
+    },
+    {
+      "time": "2026-08-28T15:52:14.982Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:52:15.185Z"
+    },
+    {
+      "time": "2026-08-28T15:52:16.323Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 6,
+      "lastTime": "2026-08-28T15:52:19.526Z"
+    },
+    {
+      "time": "2026-08-28T15:52:19.626Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:19.893Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:19.926Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:19.96Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:19.993Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:20.037Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:20.06Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:52:20.226Z"
+    },
+    {
+      "time": "2026-08-28T15:52:20.26Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:52:21.066Z"
+    },
+    {
+      "time": "2026-08-28T15:52:21.093Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 6,
+      "lastTime": "2026-08-28T15:52:22.569Z"
+    },
+    {
+      "time": "2026-08-28T15:52:22.934Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:23.08Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:23.101Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:23.134Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:23.167Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:23.213Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:23.635Z"
+    },
+    {
+      "time": "2026-08-28T15:52:24.635Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:24.769Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:24.867Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:25.634Z"
+    },
+    {
+      "time": "2026-08-28T15:52:28Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:28.567Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:29.2Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:31.9Z"
+    },
+    {
+      "time": "2026-08-28T15:52:32.809Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:32.874Z"
+    },
+    {
+      "time": "2026-08-28T15:52:35.459Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:35.487Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:36.657Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:36.695Z"
+    },
+    {
+      "time": "2026-08-28T15:52:36.889Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:37.417Z"
+    },
+    {
+      "time": "2026-08-28T15:52:37.75Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:38.499Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:38.599Z"
+    },
+    {
+      "time": "2026-08-28T15:52:38.699Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:39.132Z"
+    },
+    {
+      "time": "2026-08-28T15:52:39.165Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 7,
+      "lastTime": "2026-08-28T15:52:41.132Z"
+    },
+    {
+      "time": "2026-08-28T15:52:41.165Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:42.165Z",
+      "species": "Guardian",
+      "message": "The lure’s faint glow set the Guardian’s marker in motion."
+    },
+    {
+      "time": "2026-08-28T15:52:44.036Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:45.665Z"
+    },
+    {
+      "time": "2026-08-28T15:52:46.053Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:46.085Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:46.207Z"
+    },
+    {
+      "time": "2026-08-28T15:52:48.104Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:48.415Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:52:48.565Z"
+    },
+    {
+      "time": "2026-08-28T15:52:48.631Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:48.664Z"
+    },
+    {
+      "time": "2026-08-28T15:52:48.75Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:49.019Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:50.16Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:50.255Z"
+    },
+    {
+      "time": "2026-08-28T15:52:50.393Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:50.46Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:52:50.639Z"
+    },
+    {
+      "time": "2026-08-28T15:52:50.847Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:52:51.789Z"
+    },
+    {
+      "time": "2026-08-28T15:52:51.856Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:51.922Z"
+    },
+    {
+      "time": "2026-08-28T15:52:52.06Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:52:53.642Z"
+    },
+    {
+      "time": "2026-08-28T15:52:53.905Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:52:55.005Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:52:55.584Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:55.84Z",
+      "species": "Guardian",
+      "message": "A flicker of vigilance swims towards the residue."
+    },
+    {
+      "time": "2026-08-28T15:52:56.681Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:52:56.681Z"
+    },
+    {
+      "time": "2026-08-28T15:52:57.213Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:52:58.817Z"
+    },
+    {
+      "time": "2026-08-28T15:52:59.216Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:52:59.565Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:53:11.169Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 4,
+      "lastTime": "2026-08-28T15:54:35.188Z"
+    },
+    {
+      "time": "2026-08-28T15:55:02.5Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T15:55:05.78Z"
+    },
+    {
+      "time": "2026-08-28T15:55:06.514Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T15:55:06.88Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:55:07.246Z"
+    },
+    {
+      "time": "2026-08-28T15:55:07.779Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:55:08.38Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:55:09.296Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:55:10.836Z"
+    },
+    {
+      "time": "2026-08-28T15:55:10.896Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:55:11.064Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:55:11.496Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:55:11.563Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:55:11.996Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:55:12.098Z"
+    },
+    {
+      "time": "2026-08-28T15:55:12.296Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:55:12.462Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 10,
+      "lastTime": "2026-08-28T15:55:19.411Z"
+    },
+    {
+      "time": "2026-08-28T15:55:20.283Z",
+      "species": "Guardian",
+      "message": "A flicker of vigilance swims towards the lure."
+    },
+    {
+      "time": "2026-08-28T15:55:20.991Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:55:21.066Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T15:55:21.148Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:55:21.222Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:55:21.362Z"
+    },
+    {
+      "time": "2026-08-28T15:55:21.494Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:55:21.716Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:55:21.754Z"
+    },
+    {
+      "time": "2026-08-28T15:55:21.815Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:55:22.932Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T15:55:23.036Z"
+    },
+    {
+      "time": "2026-08-28T15:55:23.136Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:55:23.237Z"
+    },
+    {
+      "time": "2026-08-28T15:55:23.269Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:55:23.744Z"
+    },
+    {
+      "time": "2026-08-28T15:55:24.149Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T15:55:26.765Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T15:55:26.798Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T15:55:27.777Z"
+    },
+    {
+      "time": "2026-08-28T15:55:32.842Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:55:36.446Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T15:55:47.578Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T15:57:35.184Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T15:58:34.119Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T15:58:34.157Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T16:05:50.221Z",
+      "species": "Parasite",
+      "message": "A life fades.",
+      "count": 3,
+      "lastTime": "2026-08-28T16:12:08.459Z"
+    },
+    {
+      "time": "2026-08-28T16:12:40.09Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T16:12:52.458Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T16:14:10.17Z",
+      "species": "Parasite",
+      "message": "A life fades.",
+      "count": 2,
+      "lastTime": "2026-08-28T16:17:20.978Z"
+    },
+    {
+      "time": "2026-08-28T16:22:36.213Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T16:23:11.112Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T16:25:40.303Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T16:25:50.383Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T16:26:36.786Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T16:26:39.353Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T16:28:42.717Z"
+    },
+    {
+      "time": "2026-08-28T16:30:21.349Z",
+      "species": "Parasite",
+      "message": "A life fades.",
+      "count": 2,
+      "lastTime": "2026-08-28T16:34:06.619Z"
+    },
+    {
+      "time": "2026-08-28T16:35:35.421Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T16:35:50.552Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T16:37:41.649Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T16:47:37.828Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 3,
+      "lastTime": "2026-08-28T16:56:07.766Z"
+    },
+    {
+      "time": "2026-08-28T16:58:09.233Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T17:01:56.77Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T17:03:08.67Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 4,
+      "lastTime": "2026-08-28T17:07:23.043Z"
+    },
+    {
+      "time": "2026-08-28T17:10:02.174Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T17:10:35.239Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T17:16:15.622Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T17:21:10.064Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 4,
+      "lastTime": "2026-08-28T17:36:57.751Z"
+    },
+    {
+      "time": "2026-08-28T17:37:39.91Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T17:37:40.458Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T17:37:41.49Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T17:37:41.901Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T17:37:41.901Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T17:37:41.901Z"
+    },
+    {
+      "time": "2026-08-28T17:37:43.907Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T17:37:44.441Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T17:37:44.875Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T17:37:44.974Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T17:37:45.073Z"
+    },
+    {
+      "time": "2026-08-28T17:37:45.507Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T17:37:45.74Z"
+    },
+    {
+      "time": "2026-08-28T17:38:20.582Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T17:38:23.073Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T17:38:51.103Z"
+    },
+    {
+      "time": "2026-08-28T17:40:20.269Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests.",
+      "count": 2,
+      "lastTime": "2026-08-28T17:43:15.259Z"
+    },
+    {
+      "time": "2026-08-28T17:47:41.391Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T17:53:58.818Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T17:54:55.824Z"
+    },
+    {
+      "time": "2026-08-28T17:55:02.722Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T17:57:13.943Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:04:35.299Z",
+      "species": "Guardian",
+      "message": "A flicker of vigilance swims towards the lure."
+    },
+    {
+      "time": "2026-08-28T18:04:35.417Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:04:35.479Z"
+    },
+    {
+      "time": "2026-08-28T18:04:37.641Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:04:38.308Z"
+    },
+    {
+      "time": "2026-08-28T18:04:41.357Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:04:41.394Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:04:42.856Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:04:42.957Z"
+    },
+    {
+      "time": "2026-08-28T18:04:43.023Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:04:43.056Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:04:43.123Z"
+    },
+    {
+      "time": "2026-08-28T18:04:43.356Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:04:43.424Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:04:44.19Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:04:44.989Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:04:45.823Z"
+    },
+    {
+      "time": "2026-08-28T18:04:48.031Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:04:49.669Z"
+    },
+    {
+      "time": "2026-08-28T18:04:51.439Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:04:51.473Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T18:04:52.271Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T18:04:52.272Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:04:52.405Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:04:53.276Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:04:53.573Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:04:54.741Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:04:54.772Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:04:55.08Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:04:55.546Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:04:57.056Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:04:57.388Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:04:57.621Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:05:25.647Z"
+    },
+    {
+      "time": "2026-08-28T18:07:11.382Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T18:08:53.434Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:08:53.476Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:08:53.545Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:08:53.601Z"
+    },
+    {
+      "time": "2026-08-28T18:08:54.2Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:08:54.238Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:08:54.329Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:08:54.755Z"
+    },
+    {
+      "time": "2026-08-28T18:08:55.799Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:08:56.349Z"
+    },
+    {
+      "time": "2026-08-28T18:08:59.215Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T18:09:03.635Z"
+    },
+    {
+      "time": "2026-08-28T18:09:03.97Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:04.417Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:06.47Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:06.601Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:08.223Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:09:09.072Z"
+    },
+    {
+      "time": "2026-08-28T18:09:10.039Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:10.306Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:09:11.234Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:11.268Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 6,
+      "lastTime": "2026-08-28T18:09:13.292Z"
+    },
+    {
+      "time": "2026-08-28T18:09:13.497Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:09:13.88Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:09:14.555Z"
+    },
+    {
+      "time": "2026-08-28T18:09:14.799Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:15.067Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:15.401Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:15.637Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:15.734Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:16.039Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:16.19Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:16.251Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:16.284Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:09:16.336Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:16.7Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:09:16.734Z"
+    },
+    {
+      "time": "2026-08-28T18:09:17.046Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:17.08Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:18.237Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:18.267Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:21.483Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:09:21.662Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:22.003Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:22.296Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:22.613Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:22.712Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:24.158Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:09:24.645Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:09:28.344Z"
+    },
+    {
+      "time": "2026-08-28T18:09:28.732Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:09:28.865Z"
+    },
+    {
+      "time": "2026-08-28T18:09:28.932Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:09:28.932Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:29.132Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:09:30.332Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T18:09:33.525Z"
+    },
+    {
+      "time": "2026-08-28T18:09:33.552Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:09:33.619Z"
+    },
+    {
+      "time": "2026-08-28T18:09:33.653Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:34.219Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:09:34.685Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:09:35.086Z"
+    },
+    {
+      "time": "2026-08-28T18:09:35.306Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:09:36.151Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:38.173Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:38.239Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:09:40.384Z"
+    },
+    {
+      "time": "2026-08-28T18:09:40.645Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:40.964Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:41.568Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:42.176Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:09:44.639Z"
+    },
+    {
+      "time": "2026-08-28T18:09:44.874Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:45.622Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T18:09:54.487Z"
+    },
+    {
+      "time": "2026-08-28T18:09:54.654Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:56.638Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:56.787Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:09:56.953Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:09:56.987Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:09:59.166Z"
+    },
+    {
+      "time": "2026-08-28T18:09:59.452Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:09:59.583Z"
+    },
+    {
+      "time": "2026-08-28T18:09:59.878Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:10:04.259Z"
+    },
+    {
+      "time": "2026-08-28T18:10:05.302Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:10:08.344Z"
+    },
+    {
+      "time": "2026-08-28T18:10:10.552Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:10:10.878Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:10:12.714Z"
+    },
+    {
+      "time": "2026-08-28T18:10:31.002Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:31.119Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:31.16Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:31.187Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 15,
+      "lastTime": "2026-08-28T18:10:34.378Z"
+    },
+    {
+      "time": "2026-08-28T18:10:34.952Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:10:35.845Z"
+    },
+    {
+      "time": "2026-08-28T18:10:36.578Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 4,
+      "lastTime": "2026-08-28T18:10:38.097Z"
+    },
+    {
+      "time": "2026-08-28T18:10:38.767Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:38.807Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:38.835Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:38.887Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:38.919Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:38.95Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:38.982Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:39.015Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:39.048Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:39.098Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:39.127Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:39.161Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:39.194Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:39.227Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:39.261Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:39.298Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:39.327Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:39.36Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:39.394Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:39.431Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:39.461Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:39.494Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:40Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:43.066Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T18:10:43.76Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:45.247Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:45.735Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:47.012Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T18:10:47.012Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T18:10:47.406Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 6,
+      "lastTime": "2026-08-28T18:10:48.046Z"
+    },
+    {
+      "time": "2026-08-28T18:10:48.072Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:50.28Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:10:50.421Z"
+    },
+    {
+      "time": "2026-08-28T18:10:51.938Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:10:52.279Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:10:53.108Z"
+    },
+    {
+      "time": "2026-08-28T18:10:54.218Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:10:54.717Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:10:54.959Z"
+    },
+    {
+      "time": "2026-08-28T18:10:55.584Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:10:57.292Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:11:00.43Z"
+    },
+    {
+      "time": "2026-08-28T18:11:00.561Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:11:01.107Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:11:02.05Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:11:02.231Z"
+    },
+    {
+      "time": "2026-08-28T18:11:02.4Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T18:11:03.623Z"
+    },
+    {
+      "time": "2026-08-28T18:11:04.139Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:11:05.527Z"
+    },
+    {
+      "time": "2026-08-28T18:11:05.579Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:11:06.742Z"
+    },
+    {
+      "time": "2026-08-28T18:11:07.448Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:11:08.641Z"
+    },
+    {
+      "time": "2026-08-28T18:11:10.396Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T18:11:10.532Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:11:10.724Z"
+    },
+    {
+      "time": "2026-08-28T18:11:13.017Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:11:13.064Z"
+    },
+    {
+      "time": "2026-08-28T18:11:13.644Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:11:13.985Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:11:15.51Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:11:16.66Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T18:11:18.214Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:11:20.776Z"
+    },
+    {
+      "time": "2026-08-28T18:11:21.128Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:11:21.976Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 5,
+      "lastTime": "2026-08-28T18:11:26.707Z"
+    },
+    {
+      "time": "2026-08-28T18:11:27.507Z",
+      "species": "Predator",
+      "message": "A lure has gained new attention."
+    },
+    {
+      "time": "2026-08-28T18:11:28.562Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T18:11:29.024Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 6,
+      "lastTime": "2026-08-28T18:11:31.793Z"
+    },
+    {
+      "time": "2026-08-28T18:11:32.054Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:11:33.646Z"
+    },
+    {
+      "time": "2026-08-28T18:11:34.112Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:11:34.431Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:11:35.67Z"
+    },
+    {
+      "time": "2026-08-28T18:11:35.954Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:11:37.057Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:11:43.39Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 5,
+      "lastTime": "2026-08-28T18:13:35.392Z"
+    },
+    {
+      "time": "2026-08-28T18:13:44.49Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T18:14:03.392Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:23:43.88Z",
+      "species": "Predator",
+      "message": "A life fades.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:28:40.187Z"
+    },
+    {
+      "time": "2026-08-28T18:36:42.927Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T18:37:43.561Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:38:31.172Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:38:35.069Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T18:38:35.45Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:38:36.658Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:38:37.829Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:38:38.754Z"
+    },
+    {
+      "time": "2026-08-28T18:38:39.074Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:38:39.786Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:38:39.974Z"
+    },
+    {
+      "time": "2026-08-28T18:38:40.321Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:38:40.382Z"
+    },
+    {
+      "time": "2026-08-28T18:38:40.569Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:38:40.634Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:38:41.302Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:38:41.303Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:38:41.436Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:38:41.502Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:38:41.602Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:38:41.802Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:38:44.955Z"
+    },
+    {
+      "time": "2026-08-28T18:38:46.456Z",
+      "species": "Parasite",
+      "message": "A thought that could not settle remains here."
+    },
+    {
+      "time": "2026-08-28T18:39:14.565Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:39:42.598Z"
+    },
+    {
+      "time": "2026-08-28T18:40:46.969Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T18:40:53.54Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T18:42:50.125Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:42:50.167Z"
+    },
+    {
+      "time": "2026-08-28T18:42:50.526Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:42:52.099Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:42:52.099Z"
+    },
+    {
+      "time": "2026-08-28T18:42:52.154Z",
+      "species": "Guardian",
+      "message": "The lure’s faint glow set the Guardian’s marker in motion."
+    },
+    {
+      "time": "2026-08-28T18:42:54.012Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:42:54.17Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:42:55.182Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:42:55.979Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:42:56.17Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:42:56.228Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:42:56.474Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:42:58.933Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:42:58.988Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:42:59.061Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:42:59.148Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:42:59.178Z"
+    },
+    {
+      "time": "2026-08-28T18:43:00.043Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:43:01.975Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:43:02.902Z"
+    },
+    {
+      "time": "2026-08-28T18:43:03.102Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:43:03.468Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:43:03.501Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:43:03.535Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:43:04.006Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T18:43:05.383Z"
+    },
+    {
+      "time": "2026-08-28T18:43:05.41Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:43:05.51Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:43:05.643Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:43:05.81Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:43:05.876Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:43:05.91Z"
+    },
+    {
+      "time": "2026-08-28T18:43:05.977Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:43:06.143Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 5,
+      "lastTime": "2026-08-28T18:43:06.709Z"
+    },
+    {
+      "time": "2026-08-28T18:43:07.043Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:43:08.31Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:43:10.714Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:43:12.112Z",
+      "species": "Parasite",
+      "message": "A life fades.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:43:15.982Z"
+    },
+    {
+      "time": "2026-08-28T18:43:38.747Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:43:57.815Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T18:45:17.333Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T18:47:39.665Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T18:48:20.561Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T18:48:22.16Z",
+      "species": "Parasite",
+      "message": "An old thought still circles through the ecosystem."
+    },
+    {
+      "time": "2026-08-28T18:48:27.078Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:48:34.617Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T18:48:35.754Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:48:35.788Z"
+    },
+    {
+      "time": "2026-08-28T18:48:35.822Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:48:35.888Z"
+    },
+    {
+      "time": "2026-08-28T18:48:35.921Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:48:36.192Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 4,
+      "lastTime": "2026-08-28T18:48:39.468Z"
+    },
+    {
+      "time": "2026-08-28T18:48:39.576Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:48:39.671Z"
+    },
+    {
+      "time": "2026-08-28T18:48:41.275Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:48:45.307Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:48:45.441Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:48:45.508Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:48:46.041Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:48:54.885Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:48:56.052Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:48:56.086Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T18:48:59.154Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T18:49:00.378Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:49:00.378Z",
+      "species": "Predator",
+      "message": "A Predator emerges."
+    },
+    {
+      "time": "2026-08-28T18:49:00.378Z",
+      "species": "Predator",
+      "message": "Another possible life was the price."
+    },
+    {
+      "time": "2026-08-28T18:49:01.476Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:49:01.702Z"
+    },
+    {
+      "time": "2026-08-28T18:49:01.832Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:49:01.894Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:49:02.216Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:49:02.435Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:49:03.043Z"
+    },
+    {
+      "time": "2026-08-28T18:49:03.181Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:49:03.243Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:49:03.764Z"
+    },
+    {
+      "time": "2026-08-28T18:49:11.728Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T18:49:12.284Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:49:13.862Z"
+    },
+    {
+      "time": "2026-08-28T18:49:13.931Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:49:13.981Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:49:14.009Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:49:14.121Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:49:14.905Z"
+    },
+    {
+      "time": "2026-08-28T18:49:14.938Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:49:15.075Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:49:15.533Z"
+    },
+    {
+      "time": "2026-08-28T18:49:15.599Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:49:15.633Z",
+      "species": "Predator",
+      "message": "The lure learns.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:49:15.733Z"
+    },
+    {
+      "time": "2026-08-28T18:49:16.999Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:49:20.1Z",
+      "species": "Roamer",
+      "message": "Thoughts drift.",
+      "count": 6,
+      "lastTime": "2026-08-28T18:49:26.736Z"
+    },
+    {
+      "time": "2026-08-28T18:49:29.868Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:49:30.368Z"
+    },
+    {
+      "time": "2026-08-28T18:49:31.777Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:49:39.054Z",
+      "species": "Guardian",
+      "message": "A flicker of vigilance swims towards the residue."
+    },
+    {
+      "time": "2026-08-28T18:49:41.641Z",
+      "species": "Parasite",
+      "message": "A fading life becomes a Parasite."
+    },
+    {
+      "time": "2026-08-28T18:49:43.508Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:49:44.475Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:49:45.45Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:49:48.088Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T18:49:49.046Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:49:52.531Z",
+      "species": "Predator",
+      "message": "A life fades."
+    },
+    {
+      "time": "2026-08-28T18:49:53.131Z",
+      "species": "Parasite",
+      "message": "An old trace of attention keeps returning like an echo."
+    },
+    {
+      "time": "2026-08-28T18:49:56.944Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:50:01.877Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers."
+    },
+    {
+      "time": "2026-08-28T18:50:02.049Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:50:02.143Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:50:02.41Z"
+    },
+    {
+      "time": "2026-08-28T18:50:03.217Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:50:04.343Z",
+      "species": "Predator",
+      "message": "The lure learns."
+    },
+    {
+      "time": "2026-08-28T18:50:04.41Z",
+      "species": "Parasite",
+      "message": "A trace remains.",
+      "count": 3,
+      "lastTime": "2026-08-28T18:50:04.61Z"
+    },
+    {
+      "time": "2026-08-28T18:50:05.447Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:50:05.48Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:50:09.663Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:50:09.83Z",
+      "species": "Parasite",
+      "message": "A trace remains."
+    },
+    {
+      "time": "2026-08-28T18:50:09.863Z",
+      "species": "DeepDiver",
+      "message": "Focus gathers.",
+      "count": 2,
+      "lastTime": "2026-08-28T18:50:09.964Z"
+    },
+    {
+      "time": "2026-08-28T18:50:10.198Z",
+      "species": "Roamer",
+      "message": "Thoughts drift."
+    },
+    {
+      "time": "2026-08-28T18:50:17.733Z",
+      "species": "OriginalCell",
+      "message": "A life emerges."
+    },
+    {
+      "time": "2026-08-28T18:50:29.731Z",
+      "species": "Parasite",
+      "message": "A lingering trace of attention clings to the path."
+    },
+    {
+      "time": "2026-08-28T18:50:45.763Z",
+      "species": "OriginalCell",
+      "message": "A life emerges.",
+      "count": 4,
+      "lastTime": "2026-08-28T18:52:09.764Z"
+    },
+    {
+      "time": "2026-08-28T18:52:18.562Z",
+      "species": "OriginalCell",
+      "message": "The ecology rests."
+    },
+    {
+      "time": "2026-08-28T19:46:22.578Z",
+      "species": "Parasite",
+      "message": "A life fades."
+    }
+  ]
+}

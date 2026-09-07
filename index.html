@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<!--
+  File Overview
+  Defines the application page, interface, visual styles, resources, and script-loading order.
+-->
+<html lang="zh-CN">
+  <head>
+    <link
+      rel="preload"
+      href="vendor/fonts/gloria-hallelujah/GloriaHallelujah.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="vendor/fonts/neucha/Neucha.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="vendor/fonts/averia-libre/AveriaLibre-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <script
+      data-dependency="app.js"
+      src="app.js?v=20260903-15"
+    ></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Attention Survival Log</title>
+    <style>
+      /* Foundations for local fonts and the full-screen ecological canvas */
+      @font-face {
+        font-family: "Gloria Hallelujah";
+        src: url("vendor/fonts/gloria-hallelujah/GloriaHallelujah.ttf") format("truetype");
+        font-style: normal;
+        font-weight: 400;
+        font-display: block;
+      }
+
+      @font-face {
+        font-family: "Neucha";
+        src: url("vendor/fonts/neucha/Neucha.ttf") format("truetype");
+        font-style: normal;
+        font-weight: 400;
+        font-display: block;
+      }
+
+      @font-face {
+        font-family: "Averia Libre";
+        src: url("vendor/fonts/averia-libre/AveriaLibre-Regular.ttf") format("truetype");
+        font-style: normal;
+        font-weight: 400;
+        font-display: block;
+      }
+
+      :root {
+        --attention-background: #0c256d;
+        --reticle-rgb: 108, 216, 226;
+      }
+
+      html,
+      body {
+        margin: 0;
+        overflow: hidden;
+        background: var(--attention-background);
+      }
+
+      canvas {
+        display: block;
+      }
+
+      /* Ecological reset confirmation for maintainers */
+      #maintenance-reset-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 120;
+        display: grid;
+        place-items: center;
+        padding: 28px;
+        background: rgba(1, 10, 42, 0.76);
+        backdrop-filter: blur(8px);
+      }
+
+      #maintenance-reset-overlay[hidden] {
+        display: none;
+      }
+
+      #maintenance-reset-dialog {
+        width: min(470px, calc(100vw - 56px));
+        padding: 30px 32px 28px;
+        border: 1px solid rgba(108, 216, 226, 0.5);
+        border-radius: 22px;
+        background: rgba(8, 30, 91, 0.98);
+        box-shadow: 0 22px 70px rgba(0, 0, 0, 0.42);
+        color: rgba(224, 246, 249, 0.92);
+      }
+
+      #maintenance-reset-title {
+        margin: 0 0 14px;
+        color: rgb(108, 216, 226);
+        font: 400 28px/1.15 "Neucha", cursive;
+        letter-spacing: 0.035em;
+      }
+
+      .maintenance-reset-copy {
+        margin: 0 0 8px;
+        font: 400 15px/1.45 "Averia Libre", sans-serif;
+        letter-spacing: 0.01em;
+      }
+
+      #maintenance-reset-status {
+        min-height: 1.45em;
+        margin: 14px 0 0;
+        color: rgba(251, 167, 188, 0.95);
+        font: 400 13px/1.45 "Averia Libre", sans-serif;
+      }
+
+      #maintenance-reset-token-row {
+        display: grid;
+        gap: 7px;
+        margin-top: 16px;
+        color: rgba(224, 246, 249, 0.82);
+        font: 400 13px/1.35 "Averia Libre", sans-serif;
+      }
+
+      #maintenance-reset-token-row[hidden] {
+        display: none;
+      }
+
+      #maintenance-reset-token {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 12px;
+        border: 1px solid rgba(108, 216, 226, 0.48);
+        border-radius: 10px;
+        background: rgba(1, 12, 48, 0.72);
+        color: rgba(225, 248, 250, 0.96);
+        font: 400 14px/1.2 "Averia Libre", sans-serif;
+      }
+
+      #maintenance-reset-token:focus-visible {
+        border-color: rgb(108, 216, 226);
+        outline: 2px solid rgba(108, 216, 226, 0.18);
+      }
+
+      .maintenance-reset-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .maintenance-reset-button {
+        min-height: 42px;
+        padding: 9px 17px;
+        border: 2px solid rgba(108, 216, 226, 0.58);
+        border-radius: 999px;
+        background: rgba(4, 20, 66, 0.72);
+        color: rgba(225, 248, 250, 0.94);
+        font: 400 15px/1.2 "Neucha", cursive;
+        letter-spacing: 0.035em;
+        cursor: pointer;
+      }
+
+      .maintenance-reset-button:hover,
+      .maintenance-reset-button:focus-visible {
+        border-color: rgb(108, 216, 226);
+        background: rgba(108, 216, 226, 0.13);
+        outline: none;
+      }
+
+      #maintenance-reset-erase {
+        border-color: rgba(251, 122, 153, 0.7);
+        color: rgba(255, 210, 220, 0.98);
+      }
+
+      #maintenance-reset-erase:hover,
+      #maintenance-reset-erase:focus-visible {
+        border-color: rgb(251, 122, 153);
+        background: rgba(251, 122, 153, 0.14);
+      }
+
+      .maintenance-reset-button:disabled {
+        cursor: wait;
+        opacity: 0.48;
+      }
+
+      #lower-left-controls {
+        position: fixed;
+        left: 4px;
+        top: 80px;
+        z-index: 23;
+        display: flex;
+        max-width: calc(100vw - 40px);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        transform: scale(0.968);
+        transform-origin: left top;
+      }
+
+      #input-mode-controls {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+        max-width: 100%;
+        padding: 0;
+        border: 0;
+        background: transparent;
+      }
+
+      #input-mode-controls[hidden] {
+        display: none;
+      }
+
+      #interaction-participant-count {
+        position: absolute;
+        visibility: hidden;
+        pointer-events: none;
+        margin: 0;
+        transform: scaleY(1.15);
+        transform-origin: left center;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: "Averia Libre", cursive;
+        font-size: 13.5px;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: 0.025em;
+        white-space: nowrap;
+      }
+
+      #recalibration-participant-menu {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        min-width: 176px;
+        flex-direction: column;
+        gap: 4px;
+        margin: 0;
+        padding: 8px;
+        border: 1px solid rgba(var(--reticle-rgb), 0.24);
+        border-radius: 12px;
+        background: rgba(0, 8, 28, 0.82);
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(8px);
+      }
+
+      #recalibration-participant-menu[hidden] {
+        display: none;
+      }
+
+      .recalibration-menu-title {
+        padding: 0 3px 2px;
+        color: rgba(210, 235, 240, 0.68);
+        font: 10px/1.25 Arial, sans-serif;
+        letter-spacing: 0.04em;
+      }
+
+      .recalibration-participant-option {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        padding: 6px 8px;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        background: rgba(108, 216, 226, 0.07);
+        color: rgba(229, 250, 253, 0.9);
+        font: 11px/1.2 Arial, sans-serif;
+        cursor: pointer;
+      }
+
+      .recalibration-participant-option:hover,
+      .recalibration-participant-option:focus-visible {
+        border-color: rgba(var(--reticle-rgb), 0.45);
+        background: rgba(108, 216, 226, 0.14);
+        outline: none;
+      }
+
+      .recalibration-participant-shape {
+        color: rgba(138, 231, 239, 0.86);
+        font: 12px/1 monospace;
+        letter-spacing: 0.08em;
+      }
+
+      /* Participation consent, joining guidance, and re-entry flow */
+      #audience-consent-panel {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        z-index: 24;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transform: translate(-50%, -50%) scale(1.265);
+        padding: 13px 14px 12px;
+        border: 0;
+        border-radius: 999px;
+        background: rgba(3, 10, 38, 0.531);
+        box-shadow: none;
+        backdrop-filter: blur(1px);
+        color: rgba(234, 251, 253, 0.94);
+        font-family: "Neucha", cursive;
+        font-weight: 400;
+        -webkit-text-stroke: 0.3px currentColor;
+        paint-order: stroke fill;
+        text-align: center;
+        will-change: opacity, transform;
+      }
+
+      #audience-consent-panel[data-prompt-mode] {
+        border-radius: 50px;
+        background: transparent;
+        isolation: isolate;
+      }
+
+      #audience-consent-panel[data-prompt-mode="initial"] {
+        width: 213px;
+        height: 222px;
+        padding: 24px 22px;
+        border-radius: 50px;
+      }
+
+      #audience-consent-panel[data-prompt-mode="guidance"] {
+        padding: 24px 22px;
+        border-radius: 50px;
+      }
+
+      #audience-consent-panel[data-prompt-mode="guidance"] #audience-consent-message {
+        color: rgba(234, 251, 253, 1);
+        font-size: 13px;
+        -webkit-text-stroke-width: 0.2px;
+        line-height: calc(1.2em + 11px);
+        letter-spacing: 0.93px;
+      }
+
+      .audience-consent-guidance-line {
+        display: block;
+        white-space: nowrap;
+      }
+
+      .audience-consent-guidance-emphasis {
+        color: rgb(227, 155, 173);
+        -webkit-text-stroke-width: 0.45px;
+      }
+
+      #audience-consent-wave-frame {
+        position: absolute;
+        inset: -20px;
+        z-index: 0;
+        display: none;
+        width: calc(100% + 40px);
+        height: calc(100% + 40px);
+        overflow: visible;
+        pointer-events: none;
+      }
+
+      #audience-consent-panel[data-prompt-mode] #audience-consent-wave-frame {
+        display: block;
+      }
+
+      #audience-consent-wave-surface {
+        fill: rgba(3, 10, 38, 0.531);
+        stroke: none;
+      }
+
+      .audience-consent-wave-corner {
+        fill: none;
+        stroke: rgba(var(--reticle-rgb), 0.7451);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+
+      .audience-consent-wave-corner {
+        stroke-width: 3.25px;
+      }
+
+      #audience-consent-panel[data-prompt-mode] > :not(#audience-consent-wave-frame) {
+        position: relative;
+        z-index: 1;
+      }
+
+      .audience-consent-button-wave {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        display: none;
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+        pointer-events: none;
+      }
+
+      .audience-consent-button-wave-surface {
+        fill: rgba(108, 216, 226, 0.2745);
+        stroke: none;
+      }
+
+      .audience-consent-button-wave-outline {
+        fill: none;
+        stroke: rgba(var(--reticle-rgb), 0.902);
+        stroke-width: 2.8px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+        opacity: 0;
+        transition: opacity 160ms ease-out;
+      }
+
+      #audience-consent-panel[data-prompt-mode] .audience-consent-action {
+        position: relative;
+        isolation: isolate;
+        border-color: transparent;
+        background: transparent;
+      }
+
+      #audience-consent-panel[data-prompt-mode="initial"] .audience-consent-action {
+        padding: 10px 19px;
+      }
+
+      #audience-consent-panel[data-prompt-mode] .audience-consent-button-wave {
+        display: block;
+      }
+
+      #audience-consent-panel[data-prompt-mode] .audience-consent-action-label {
+        position: relative;
+        z-index: 1;
+      }
+
+      #audience-consent-panel[data-prompt-mode="initial"] #audience-consent-title {
+        transform: translateY(10px);
+      }
+
+      #audience-consent-panel[data-prompt-mode="initial"] #audience-consent-message {
+        transform: translateY(5px);
+      }
+
+      #audience-consent-panel[data-prompt-mode="initial"] #audience-consent-actions {
+        transform: translateY(2.5px);
+      }
+
+      #audience-consent-panel[data-prompt-mode] .audience-consent-action:hover,
+      #audience-consent-panel[data-prompt-mode] .audience-consent-action:focus-visible,
+      #audience-consent-panel[data-prompt-mode] .audience-consent-action:active {
+        border-color: transparent;
+        background: transparent;
+      }
+
+      #audience-consent-panel[data-prompt-mode] .audience-consent-action:hover .audience-consent-button-wave-outline,
+      #audience-consent-panel[data-prompt-mode] .audience-consent-action:focus-visible .audience-consent-button-wave-outline,
+      #audience-consent-panel[data-prompt-mode] .audience-consent-action:active .audience-consent-button-wave-outline {
+        opacity: 1;
+      }
+
+      #audience-consent-panel[data-layout="center"] {
+        transform: translate(-50%, -50%) scale(1.265);
+      }
+
+      #audience-consent-panel.audience-consent-entering {
+        animation: audience-consent-fade-in 1500ms ease-out both;
+      }
+
+      #audience-consent-panel.audience-consent-leaving {
+        pointer-events: none;
+        animation: audience-consent-fade-out 1500ms ease-in both;
+      }
+
+      @keyframes audience-consent-fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      @keyframes audience-consent-fade-out {
+        from { opacity: 1; }
+        to { opacity: 0; }
+      }
+
+      #audience-consent-panel[hidden] {
+        display: none;
+      }
+
+      #audience-consent-position {
+        margin-bottom: 5px;
+        color: rgba(150, 224, 232, 0.7608);
+        font-size: 10.5px;
+        font-weight: 400;
+        -webkit-text-stroke-width: 0.1px;
+        letter-spacing: 0.93px;
+      }
+
+      #audience-consent-position:empty {
+        display: none;
+      }
+
+      #audience-consent-title {
+        margin-bottom: 6px;
+        color: rgba(234, 251, 253, 1);
+        font-size: 22px;
+        font-weight: 400;
+        -webkit-text-stroke-width: 0.3px;
+        letter-spacing: 0.93px;
+        transform: translateY(5px);
+      }
+
+      #audience-consent-message {
+        color: rgba(218, 239, 243, 0.9412);
+        font-size: 11.5px;
+        font-weight: 400;
+        -webkit-text-stroke-width: 0.1px;
+        line-height: 1.35;
+        letter-spacing: 0.73px;
+      }
+
+      #audience-consent-actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+        margin-top: 11px;
+      }
+
+      .audience-consent-action,
+      #audience-join-request {
+        border-radius: 999px;
+        background: rgba(108, 216, 226, 0.2745);
+        color: rgba(231, 250, 252, 0.88);
+        font: 11px/1.2 Arial, sans-serif;
+        letter-spacing: 0.025em;
+        cursor: pointer;
+      }
+
+      .audience-consent-action {
+        padding: 6.5px 11.2px;
+        border: 3px solid transparent;
+        color: rgba(231, 250, 252, 1);
+        font-size: 13px;
+        font-family: "Neucha", cursive;
+        font-weight: 400;
+        -webkit-text-stroke-width: 0.2px;
+        line-height: 1.2;
+        letter-spacing: 0.93px;
+      }
+
+      .audience-consent-action:hover,
+      .audience-consent-action:focus-visible,
+      .audience-consent-action:active {
+        border-color: rgba(var(--reticle-rgb), 0.902);
+        background: rgba(108, 216, 226, 0.2745);
+        outline: none;
+      }
+
+      #audience-join-request:hover,
+      #audience-join-request:focus-visible {
+        background: rgba(108, 216, 226, 0.17);
+        outline: none;
+      }
+
+      #audience-join-request {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-left: 2px;
+        padding: 11.2px 17.6px;
+        border: 0;
+        font-size: 17.6px;
+        background: rgba(0, 8, 28, 0.58);
+        flex: none;
+        white-space: nowrap;
+      }
+
+      .audience-join-icon {
+        display: block;
+        width: 22px;
+        height: 16px;
+        flex: 0 0 22px;
+        color: rgba(255, 255, 255, 0.9216);
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.8px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        overflow: visible;
+      }
+
+      .audience-join-orbit {
+        stroke-dasharray: 1.2 1.4;
+      }
+
+      .audience-join-arrow {
+        stroke-width: 2.1px;
+      }
+
+      #audience-join-request:disabled {
+        color: rgba(190, 214, 219, 0.28);
+        cursor: default;
+      }
+
+      #audience-join-request:disabled .audience-consent-button-wave-outline {
+        opacity: 0;
+      }
+
+      /* Input-mode switching and recalibration controls */
+      .input-mode-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0;
+      }
+
+      .input-mode-row--entry {
+        position: absolute;
+        width: max-content;
+        flex-wrap: nowrap;
+        gap: 6px;
+        transform: none;
+      }
+
+      .input-mode-row--sensing {
+        min-height: 0;
+      }
+
+      .input-mode-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 9px;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        background: rgba(0, 0, 0, 0.3);
+        color: rgba(225, 251, 255, 0.88);
+        font: 13px/1.2 Arial, sans-serif;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .input-mode-button[hidden] {
+        display: none;
+      }
+
+      .input-mode-icon {
+        width: 16px;
+        height: 16px;
+        flex: 0 0 16px;
+        color: currentColor;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .input-mode-button:hover {
+        background: rgba(0, 0, 0, 0.42);
+        border-color: transparent;
+      }
+
+      .input-mode-button[aria-pressed="true"] {
+        background: rgba(0, 0, 0, 0.48);
+        border-color: rgba(var(--reticle-rgb), 0.88);
+      }
+
+      .input-mode-button[data-input-mode="calibrating"] {
+        gap: 2px;
+        margin-left: 3px;
+        padding: 2px 5px 2px 3px;
+        color: rgba(207, 230, 236, 0.56);
+        font-size: 9.5px;
+        letter-spacing: 0.015em;
+      }
+
+      .input-mode-button[data-input-mode="calibrating"] .input-mode-icon {
+        width: 10px;
+        height: 10px;
+        flex-basis: 10px;
+        color: rgba(220, 154, 255, 0.68);
+        font: 12px/10px Arial, sans-serif;
+        text-align: center;
+      }
+
+      .input-mode-button[data-input-mode="calibrating"][aria-pressed="true"] {
+        color: rgba(222, 237, 241, 0.74);
+        background: rgba(0, 0, 0, 0.48);
+        border-color: rgba(var(--reticle-rgb), 0.82);
+      }
+
+      .input-mode-button[data-input-mode="pointer"] {
+        gap: 4px;
+        padding: 4px 7px;
+        color: rgba(180, 207, 215, 0.4);
+        font-size: 11px;
+        letter-spacing: 0.025em;
+      }
+
+      .input-mode-button[data-input-mode="pointer"] .input-mode-icon {
+        width: 12px;
+        height: 12px;
+        flex-basis: 12px;
+        filter: none;
+      }
+
+      .input-mode-button[data-input-mode="pointer"]:hover {
+        color: rgba(199, 226, 233, 0.6);
+        background: rgba(0, 0, 0, 0.36);
+        border-color: transparent;
+      }
+
+      .input-mode-button[data-input-mode="pointer"][aria-pressed="true"] {
+        color: rgba(207, 232, 238, 0.66);
+        background: rgba(0, 0, 0, 0.42);
+        border-color: rgba(var(--reticle-rgb), 0.7);
+      }
+
+      .ecosystem-wave-button {
+        position: relative;
+        isolation: isolate;
+        border-color: transparent !important;
+        background: transparent !important;
+      }
+
+      .ecosystem-wave-button .audience-consent-button-wave {
+        display: block;
+      }
+
+      .ecosystem-wave-button-content {
+        position: relative;
+        z-index: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: inherit;
+        gap: inherit;
+      }
+
+      .recalibration-participant-option .ecosystem-wave-button-content {
+        width: 100%;
+      }
+
+      .ecosystem-wave-button:hover .audience-consent-button-wave-outline,
+      .ecosystem-wave-button:focus-visible .audience-consent-button-wave-outline,
+      .ecosystem-wave-button:active .audience-consent-button-wave-outline,
+      .ecosystem-wave-button[aria-pressed="true"] .audience-consent-button-wave-outline {
+        opacity: 1;
+      }
+
+      .ecosystem-wave-button:disabled .audience-consent-button-wave {
+        opacity: 0.32;
+      }
+
+      .ecosystem-wave-button:disabled .ecosystem-wave-button-content {
+        opacity: 0.5;
+      }
+
+      #audience-join-request,
+      #input-mode-controls .input-mode-button {
+        transform: translateX(-2px);
+        padding: 11.5px 23px;
+        border: 3px solid transparent;
+        color: rgba(213, 239, 243, 0.75);
+        font-family: "Neucha", cursive;
+        font-size: 13.5px;
+        font-weight: 400;
+        -webkit-text-stroke: 0.35px currentColor;
+        line-height: 1.2;
+        letter-spacing: 0.93px;
+      }
+
+      #audience-join-request {
+        transform: translateX(-2px) scale(1.06);
+        transform-origin: left center;
+      }
+
+      #audience-join-request,
+      #input-mode-controls .input-mode-button[data-input-mode="eye-head"] {
+        padding: 11.8px 27.5px;
+        font-size: 14.5px;
+      }
+
+      #input-mode-controls .input-mode-button[data-input-mode="calibrating"],
+      #input-mode-controls .input-mode-button[data-input-mode="pointer"] {
+        padding: 10.5px 20px;
+        font-size: 11.5px;
+        -webkit-text-stroke: 0.25px currentColor;
+      }
+
+      #audience-join-request .audience-consent-button-wave-outline,
+      #input-mode-controls .input-mode-button[data-input-mode="eye-head"] .audience-consent-button-wave-outline {
+        stroke-width: 3.1px;
+      }
+
+      #input-mode-controls .input-mode-button[data-input-mode="calibrating"] .audience-consent-button-wave-outline,
+      #input-mode-controls .input-mode-button[data-input-mode="pointer"] .audience-consent-button-wave-outline {
+        stroke-width: 2.6px;
+      }
+
+      #input-mode-controls .input-mode-button .input-mode-icon {
+        color: rgba(255, 255, 255, 0.9216);
+        fill: currentColor;
+        stroke: none;
+      }
+
+      #input-mode-controls .input-mode-button[data-input-mode="eye-head"] .input-mode-icon {
+        width: 18px;
+        height: 18px;
+        flex-basis: 18px;
+        transform: translateY(-0.8px);
+      }
+
+      #input-mode-controls .input-mode-button[data-input-mode="calibrating"] {
+        gap: 5px;
+      }
+
+      #recalibration-participant-menu + .input-mode-row {
+        margin-top: 6px;
+      }
+
+      #input-mode-controls #recalibration-button {
+        position: absolute;
+        margin-left: 0;
+        transform: scale(1.06);
+        transform-origin: left center;
+      }
+
+      #input-mode-controls #pointer-control-toggle {
+        margin-left: -18px;
+      }
+
+      #input-mode-controls .input-mode-button[data-input-mode="pointer"] .input-mode-icon {
+        transform: translateY(-0.5px);
+      }
+
+      #input-mode-controls .input-mode-button[data-input-mode="pointer"] {
+        transform: translateX(2px);
+      }
+
+      #input-mode-controls .input-mode-button:hover,
+      #input-mode-controls .input-mode-button:focus-visible {
+        color: rgba(235, 252, 254, 0.98);
+      }
+
+      #input-mode-controls .input-mode-button[aria-pressed="true"] {
+        color: rgba(229, 250, 253, 0.92);
+      }
+
+      #input-mode-controls .input-mode-button[aria-pressed="true"] .audience-consent-button-wave-outline {
+        stroke: rgba(var(--reticle-rgb), 0.95);
+        opacity: 1;
+      }
+
+      /* Exploration guidance and lifeform observation notes */
+      #ecology-rhythm-guide {
+        position: fixed;
+        left: 4px;
+        top: 194px;
+        z-index: 24;
+        box-sizing: border-box;
+        width: min(450px, calc(100vw - 36px));
+        padding: 19px 0 19px 20px;
+        color: rgb(var(--reticle-rgb));
+        font-family: "Neucha", cursive;
+        pointer-events: none;
+      }
+
+      #ecology-rhythm-guide .ecosystem-wave-button-content {
+        display: block;
+        width: 100%;
+      }
+
+      .ecology-rhythm-heading {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        margin: 0 0 13px;
+        transform: translateX(-1.5px);
+      }
+
+      .ecology-rhythm-icon {
+        display: block;
+        width: 31px;
+        height: 18px;
+        flex: 0 0 31px;
+        overflow: visible;
+        color: rgb(var(--reticle-rgb));
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.8px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .ecology-rhythm-icon-core {
+        fill: currentColor;
+        stroke: none;
+      }
+
+      .ecology-rhythm-icon-ring {
+        stroke-width: 1.1px;
+      }
+
+      #ecology-rhythm-title {
+        margin: 0;
+        color: rgb(var(--reticle-rgb));
+        font-size: 19.5px;
+        font-weight: 400;
+        line-height: 1.15;
+        letter-spacing: 0.04em;
+        -webkit-text-stroke: 0.25px currentColor;
+      }
+
+      .ecology-rhythm-lines {
+        display: grid;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .ecology-rhythm-row {
+        display: grid;
+        grid-template-columns: 18px minmax(0, 1fr);
+        align-items: baseline;
+        margin: 0;
+        font-size: 15.5px;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        -webkit-text-stroke: 0.15px currentColor;
+      }
+
+      .ecology-rhythm-step-number {
+        color: inherit;
+      }
+
+      .ecology-rhythm-row > span:last-child {
+        white-space: nowrap;
+      }
+
+      .ecology-rhythm-row--explore {
+        align-items: start;
+      }
+
+      .ecology-rhythm-row--explore > .ecology-rhythm-step-content {
+        display: grid;
+        gap: 4px;
+        white-space: normal;
+      }
+
+      .ecology-rhythm-predator {
+        color: rgb(227, 155, 173);
+        -webkit-text-stroke: 0.25px currentColor;
+      }
+
+      .ecology-rhythm-summary {
+        grid-column: 1 / -1;
+        margin-top: 13px;
+        max-width: 350px;
+        color: rgba(var(--reticle-rgb), 0.87);
+        font-size: 14px;
+        line-height: 1.25;
+        white-space: normal;
+        -webkit-text-stroke: 0.3px currentColor;
+      }
+
+      .ecology-rhythm-summary::before {
+        content: "";
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-right: 7px;
+        background: currentColor;
+        -webkit-mask: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2012%2012'%3E%3Cpath%20d='M3,1.2%20C2,0.62%200.75,1.34%200.75,2.5%20V9.5%20C0.75,10.66%202,11.38%203,10.8%20L9.85,6.88%20C10.65,6.42%2010.65,5.58%209.85,5.12%20Z'%20fill='black'/%3E%3C/svg%3E") center / contain no-repeat;
+        mask: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2012%2012'%3E%3Cpath%20d='M3,1.2%20C2,0.62%200.75,1.34%200.75,2.5%20V9.5%20C0.75,10.66%202,11.38%203,10.8%20L9.85,6.88%20C10.65,6.42%2010.65,5.58%209.85,5.12%20Z'%20fill='black'/%3E%3C/svg%3E") center / contain no-repeat;
+        transform: translateY(1px);
+      }
+
+      .ecology-rhythm-summary-accent {
+        color: rgba(227, 155, 173, 0.87);
+        -webkit-text-stroke: 0.45px currentColor;
+      }
+
+      .ecology-rhythm-emphasis {
+        color: rgb(227, 155, 173);
+        font-weight: 400;
+        -webkit-text-stroke: 0.25px currentColor;
+      }
+
+      #species-observation-notes {
+        position: fixed;
+        right: 3px;
+        top: 10px;
+        z-index: 24;
+        box-sizing: border-box;
+        width: min(480px, calc(100vw - 40px));
+        padding: 16px 22px 22px;
+        color: rgba(var(--reticle-rgb), 0.76);
+        font-family: "Neucha", cursive;
+        text-align: right;
+        pointer-events: none;
+      }
+
+      #species-observation-title {
+        margin: 0 0 13px;
+        transform: translateY(-4px);
+        color: rgba(var(--reticle-rgb), 0.9);
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 26.225px;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+        -webkit-text-stroke: 0.35px currentColor;
+      }
+
+      .species-observation-title-icon,
+      .attention-survival-log-title-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 6px;
+        color: currentColor;
+        vertical-align: 1px;
+      }
+
+      .species-observation-title-icon {
+        width: 22px;
+        font-size: 22px;
+        transform: translateY(5px);
+      }
+
+      .attention-survival-log-title-icon {
+        width: 19px;
+        transform: translateY(4px);
+      }
+
+      .species-observation-title-icon svg,
+      .attention-survival-log-title-icon svg {
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.8px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+
+      .species-observation-pencil-body {
+        fill: currentColor;
+        stroke: none;
+      }
+
+      .species-observation-title-icon svg {
+        stroke-width: 1.7px;
+      }
+
+      .attention-survival-log-title-icon svg {
+        stroke-width: 2px;
+      }
+
+      .species-observation-list {
+        display: grid;
+        gap: 13px;
+        margin: 0;
+      }
+
+      .species-observation-entry {
+        display: grid;
+        gap: 3px;
+      }
+
+      .species-observation-entry--origin {
+        margin-bottom: 0;
+      }
+
+      .species-observation-entry--predator {
+        margin-top: -6px;
+      }
+
+      .species-observation-name,
+      .species-observation-description {
+        margin: 0;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        white-space: nowrap;
+      }
+
+      .species-observation-name {
+        color: rgba(var(--reticle-rgb), 1);
+        font-size: 16.95px;
+        line-height: 20.04px;
+        -webkit-text-stroke: 0.3px currentColor;
+      }
+
+      .species-observation-description {
+        color: rgba(var(--reticle-rgb), 0.61);
+        font-size: 14.5px;
+        line-height: 17.1px;
+        -webkit-text-stroke: 0.12px currentColor;
+      }
+
+      .basic-cell-observation-marker {
+        display: inline-flex;
+        width: 14px;
+        height: 14px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5px;
+        color: currentColor;
+        font: 16px/14px Arial, sans-serif;
+        vertical-align: 1px;
+        -webkit-text-stroke: 1.5px currentColor;
+      }
+
+      .species-observation-origin-description {
+        padding-bottom: 18px;
+      }
+
+      .species-observation-origin-word {
+        position: relative;
+        display: inline-block;
+      }
+
+      .species-observation-origin-arrow {
+        position: absolute;
+        left: 50%;
+        top: calc(100% + 6px);
+        transform: translateX(-50%);
+        color: rgba(var(--reticle-rgb), 0.76);
+        font: 12px/1 Arial, sans-serif;
+        -webkit-text-stroke: 1.5px currentColor;
+      }
+
+      .species-observation-label {
+        color: rgba(var(--reticle-rgb), 0.76);
+      }
+
+      .species-observation-name[data-species="Predator"] {
+        color: rgba(227, 155, 173, 1);
+      }
+
+      .species-observation-name[data-species="Parasite"] {
+        color: rgba(248, 228, 75, 0.85);
+      }
+
+      .species-observation-name[data-species="Roamer"] {
+        color: rgba(161, 215, 255, 1);
+      }
+
+      .species-observation-name[data-species="DeepDiver"] {
+        color: rgba(255, 255, 255, 0.8096);
+      }
+
+      .species-observation-name[data-species="Guardian"] {
+        color: rgba(163, 204, 131, 1);
+      }
+
+      @media (max-width: 620px) {
+        #species-observation-notes {
+          top: 232px;
+          right: 3px;
+          width: min(480px, calc(100vw - 40px));
+        }
+      }
+
+      /* Real-time survival log */
+      #attention-survival-log {
+        position: fixed;
+        right: 24px;
+        bottom: 26px;
+        transform: translate(20px, 20px);
+        z-index: 22;
+        box-sizing: border-box;
+        width: min(360px, calc(100vw - 48px));
+        padding: 18px 20px;
+        background: transparent;
+        font-family: "Neucha", cursive;
+        text-align: right;
+        pointer-events: none;
+      }
+
+      .attention-survival-log-content {
+        position: relative;
+      }
+
+      .attention-survival-log-title {
+        margin: 0;
+        transform: translateY(-4px);
+        color: rgba(var(--reticle-rgb), 0.9);
+        font-size: 18.5px;
+        font-weight: 700;
+        line-height: 21.9px;
+        letter-spacing: 0.08em;
+      }
+
+      #attention-survival-log-entries {
+        display: flex;
+        min-height: 1px;
+        max-height: 131px;
+        margin-top: 8px;
+        flex-direction: column;
+        gap: 10px;
+        overflow: visible;
+      }
+
+      .attention-survival-log-entry {
+        position: relative;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 18px;
+        column-gap: 7px;
+        align-items: stretch;
+        color: rgba(var(--reticle-rgb), 0.792);
+        transform: translateY(0);
+        transform-origin: left bottom;
+        will-change: transform;
+      }
+
+      .attention-survival-log-signal {
+        position: relative;
+        display: block;
+        width: 18px;
+        min-height: 17.7px;
+        color: rgba(var(--reticle-rgb), 0.7);
+        pointer-events: none;
+      }
+
+      .attention-survival-log-signal-dot {
+        position: absolute;
+        top: 0.75px;
+        right: 0;
+        z-index: 1;
+        width: 16px;
+        height: 16px;
+        transform: scale(1.1);
+        transform-origin: center;
+        overflow: visible;
+      }
+
+      .attention-survival-log-signal-dot path {
+        fill: currentColor;
+        stroke: currentColor;
+        stroke-width: 1.45px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+
+      .attention-survival-log-signal-connector {
+        position: absolute;
+        top: 14.75px;
+        right: 0;
+        z-index: 0;
+        bottom: auto;
+        width: 16px;
+        height: calc(100% + 4px);
+        transform: scaleX(0.9);
+        transform-origin: center;
+        overflow: visible;
+      }
+
+      .attention-survival-log-signal-connector path {
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.55px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        vector-effect: non-scaling-stroke;
+      }
+
+      #attention-survival-log-entries
+        > .attention-survival-log-entry:last-of-type
+        .attention-survival-log-signal-connector {
+        height: calc(100% - 10.75px);
+      }
+
+      .attention-survival-log-identity {
+        color: rgba(var(--reticle-rgb), 1);
+      }
+
+      .attention-survival-log-entry[data-species="Predator"] .attention-survival-log-identity {
+        color: rgba(227, 155, 173, 1);
+      }
+
+      .attention-survival-log-entry[data-species="Parasite"] .attention-survival-log-identity {
+        color: rgba(248, 228, 75, 0.85);
+      }
+
+      .attention-survival-log-entry[data-species="Roamer"] .attention-survival-log-identity {
+        color: rgba(161, 215, 255, 1);
+        -webkit-text-stroke-width: 0.2px;
+      }
+
+      .attention-survival-log-entry[data-species="DeepDiver"] .attention-survival-log-identity {
+        color: rgba(255, 255, 255, 0.8096);
+      }
+
+      .attention-survival-log-entry[data-species="Guardian"] .attention-survival-log-identity {
+        color: rgba(163, 204, 131, 1);
+        -webkit-text-stroke-width: 0.5px;
+      }
+
+      .attention-survival-log-message {
+        margin: 0;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 17.7px;
+        letter-spacing: 0.02em;
+        -webkit-text-stroke: 0.1px currentColor;
+        opacity: 1;
+        display: block;
+        overflow: visible;
+        white-space: nowrap;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Maintenance recovery interface -->
+    <div id="maintenance-reset-overlay" hidden>
+      <section id="maintenance-reset-dialog" role="alertdialog" aria-modal="true" aria-labelledby="maintenance-reset-title" aria-describedby="maintenance-reset-description">
+        <h2 id="maintenance-reset-title">Reset the ecology?</h2>
+        <div id="maintenance-reset-description">
+          <p id="maintenance-reset-primary-copy" class="maintenance-reset-copy">This will permanently erase this browser's ecology and participant log.</p>
+          <p id="maintenance-reset-secondary-copy" class="maintenance-reset-copy">Use only if the ecology is corrupted or cannot continue running.</p>
+        </div>
+        <label id="maintenance-reset-token-row" for="maintenance-reset-token" hidden>
+          Administrator key
+          <input id="maintenance-reset-token" type="password" autocomplete="off" autocapitalize="none" spellcheck="false">
+        </label>
+        <p id="maintenance-reset-status" role="status" aria-live="polite"></p>
+        <div class="maintenance-reset-actions">
+          <button id="maintenance-reset-keep" class="maintenance-reset-button" type="button">Keep Current Ecology</button>
+          <button id="maintenance-reset-erase" class="maintenance-reset-button" type="button">Erase &amp; Restart</button>
+        </div>
+      </section>
+    </div>
+    <!-- Participation consent and experience guidance -->
+    <section id="audience-consent-panel" role="dialog" aria-live="polite" aria-label="Participation invitation" hidden>
+      <svg id="audience-consent-wave-frame" aria-hidden="true">
+        <path id="audience-consent-wave-surface"></path>
+        <path id="audience-consent-wave-top-left" class="audience-consent-wave-corner"></path>
+        <path id="audience-consent-wave-bottom-right" class="audience-consent-wave-corner"></path>
+      </svg>
+      <div id="audience-consent-position"></div>
+      <div id="audience-consent-title"></div>
+      <div id="audience-consent-message"></div>
+      <div id="audience-consent-actions"></div>
+    </section>
+    <section id="ecology-rhythm-guide" aria-labelledby="ecology-rhythm-title">
+      <div class="ecology-rhythm-heading">
+        <svg class="ecology-rhythm-icon" viewBox="0 0 31 18" aria-hidden="true"><circle class="ecology-rhythm-icon-ring" cx="6.5" cy="9" r="5"/><circle class="ecology-rhythm-icon-core" cx="6.5" cy="9" r="2.2"/><path d="M16 4.6c2.5 2.4 2.5 6.4 0 8.8"/><path d="M21 2.5c3.7 3.6 3.7 9.4 0 13"/></svg>
+        <h2 id="ecology-rhythm-title">HOW TO EXPLORE</h2>
+      </div>
+      <ol class="ecology-rhythm-lines">
+        <li class="ecology-rhythm-row"><span class="ecology-rhythm-step-number">1.</span><span><span class="ecology-rhythm-emphasis">Mouse click</span> to enter</span></li>
+        <li class="ecology-rhythm-row"><span class="ecology-rhythm-step-number">2.</span><span><span class="ecology-rhythm-emphasis">Calibrate</span> your head and eyes</span></li>
+        <li class="ecology-rhythm-row"><span class="ecology-rhythm-step-number">3.</span><span><span class="ecology-rhythm-emphasis">Move</span> your head and eyes to guide the target</span></li>
+        <li class="ecology-rhythm-row ecology-rhythm-row--explore">
+          <span class="ecology-rhythm-step-number">4.</span>
+          <span class="ecology-rhythm-step-content">
+            <span class="ecology-rhythm-predator">Guide the target onto a creature</span>
+            <span>Try: Look briefly · Keep looking · Close your eyes</span>
+          </span>
+          <span class="ecology-rhythm-summary">Where you choose to place your <span class="ecology-rhythm-summary-accent">attention</span> determines which life you <span class="ecology-rhythm-summary-accent">feed</span>.</span>
+        </li>
+      </ol>
+    </section>
+    <!-- Lifeform information and real-time ecological log -->
+    <aside id="species-observation-notes" aria-labelledby="species-observation-title">
+      <h2 id="species-observation-title"><span class="species-observation-title-icon" aria-hidden="true"><svg viewBox="0 0 18 18"><path class="species-observation-pencil-body" d="M4.5 10.3 9.6 4.8 13 8.2 7.7 13.6Z"/><path d="M2.2 15.6 4.7 10.1 12.2 2.1 15.9 5.8 7.9 13.4 2.2 15.6Z"/><path d="m9.6 4.8 3.4 3.4M4.7 10.1l3.2 3.3"/></svg></span>FIELD NOTES ON ATTENTION</h2>
+      <dl class="species-observation-list">
+        <div class="species-observation-entry species-observation-entry--origin">
+          <dt class="species-observation-name" data-species="OriginalCell"><span class="basic-cell-observation-marker" aria-hidden="true">◌</span>Basic Cell<span class="species-observation-label"> | Undirected Attention</span></dt>
+          <dd class="species-observation-description species-observation-origin-description">All states <span class="species-observation-origin-word">begin<span class="species-observation-origin-arrow" aria-hidden="true">↓</span></span> here.</dd>
+        </div>
+        <div class="species-observation-entry species-observation-entry--predator">
+          <dt class="species-observation-name" data-species="Predator">Predator<span class="species-observation-label"> | Attention Capture</span></dt>
+          <dd class="species-observation-description">It feeds on lingering attention.</dd>
+        </div>
+        <div class="species-observation-entry">
+          <dt class="species-observation-name" data-species="Parasite">Parasite<span class="species-observation-label"> | Attention Residue</span></dt>
+          <dd class="species-observation-description">It clings to what attention leaves behind.</dd>
+        </div>
+        <div class="species-observation-entry">
+          <dt class="species-observation-name" data-species="Roamer">Roamer<span class="species-observation-label"> | Mind-Wandering</span></dt>
+          <dd class="species-observation-description">It moves freely between directions.</dd>
+        </div>
+        <div class="species-observation-entry">
+          <dt class="species-observation-name" data-species="DeepDiver">Deep Diver<span class="species-observation-label"> | Deep Concentration</span></dt>
+          <dd class="species-observation-description">It sinks into a single task.</dd>
+        </div>
+        <div class="species-observation-entry">
+          <dt class="species-observation-name" data-species="Guardian">Guardian<span class="species-observation-label"> | Attention Recovery</span></dt>
+          <dd class="species-observation-description">It makes space again.</dd>
+        </div>
+      </dl>
+    </aside>
+    <aside id="attention-survival-log" aria-labelledby="attention-survival-log-title">
+      <div class="attention-survival-log-content">
+        <h2 id="attention-survival-log-title" class="attention-survival-log-title"><span class="attention-survival-log-title-icon" aria-hidden="true"><svg viewBox="0 0 15 15"><path d="M2 3.5h11M2 7.5h11M2 11.5h11"/></svg></span>ATTENTION SURVIVAL LOG</h2>
+        <div id="attention-survival-log-entries" role="log" aria-live="polite" aria-relevant="additions"></div>
+      </div>
+    </aside>
+    <!-- Participant joining, input modes, and recalibration controls -->
+    <div id="lower-left-controls">
+      <div
+        id="input-mode-controls"
+        role="group"
+        aria-label="Attention sensing controls"
+        hidden
+      >
+        <div class="input-mode-row input-mode-row--entry">
+          <button id="audience-join-request" type="button" data-wave-amplitude="2.2" disabled><svg class="audience-join-icon" viewBox="0 0 22 16" aria-hidden="true"><circle class="audience-join-orbit" cx="5.2" cy="8" r="4.2"/><path class="audience-join-arrow" d="M13.4 8h6m-2.5-2.5 2.5 2.5-2.5 2.5"/></svg><span>Enter the Ecology</span></button>
+          <div id="interaction-participant-count" aria-hidden="true">Present here: 0</div>
+        </div>
+        <div id="recalibration-participant-menu" role="menu" aria-label="Choose attention to reposition" hidden>
+          <div class="recalibration-menu-title">Choose attention to reposition</div>
+          <div id="recalibration-participant-options"></div>
+        </div>
+        <div class="input-mode-row input-mode-row--sensing">
+          <button class="input-mode-button" type="button" data-input-mode="eye-head" data-input-label="Primary sensing: head + eyes" data-wave-amplitude="2.2" aria-pressed="false" hidden><svg class="input-mode-icon" viewBox="0 0 18 14" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 7c1.9-3 4.4-4.5 7.5-4.5S14.6 4 16.5 7c-1.9 3-4.4 4.5-7.5 4.5S3.4 10 1.5 7ZM12 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg><span>Primary sensing: head + eyes</span></button>
+          <button id="recalibration-button" class="input-mode-button" type="button" data-input-mode="calibrating" data-input-label="Reposition" aria-pressed="false" aria-haspopup="menu" aria-expanded="false"><span class="input-mode-icon" aria-hidden="true">↻</span><span class="recalibration-button-label">Reposition</span></button>
+          <button id="pointer-control-toggle" class="input-mode-button" type="button" data-input-mode="pointer" data-input-label="Backup sensing: cursor" aria-pressed="false" hidden><svg class="input-mode-icon" viewBox="0 0 16 18" aria-hidden="true"><path d="M2.2 1.5v12.7l3.4-3 2.4 5.2 2.2-1-2.4-5.1h4.6L2.2 1.5Z"/></svg><span>Backup sensing: cursor</span></button>
+        </div>
+      </div>
+    </div>
+    <main></main>
+
+  </body>
+</html>

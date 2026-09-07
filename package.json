@@ -1,0 +1,14 @@
+{
+  "name": "interactive-creatures",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "pg": "^8.16.3",
+    "ws": "^8.18.3"
+  },
+  "scripts": {
+    "build:browser": "node scripts/build-browser-bundle.js",
+    "prestart:server": "npm run build:browser",
+    "start:server": "node server/index.js"
+  }
+}
