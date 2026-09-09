@@ -1017,7 +1017,7 @@
       extendGlowAlph: 235,
       extendGlowBlur: 18,
       visualScaleMin: 0.5,
-      visualScaleMax: 2.5,
+      visualScaleMax: 3.5,
     }),
     safeGraceMs: 6000,
     vitlDurMs: 10000,

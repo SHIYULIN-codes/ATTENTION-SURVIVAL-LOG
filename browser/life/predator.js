@@ -31,7 +31,7 @@ class Predator {
   static lineColor = [255, 255, 255];
   static bodyStyle = { alpha: 200, lineAlpha: 220, lineWeight: 9.8 };
   static coreStyle = { x: 100, y: 229, size: 70, alpha: 200, lineAlpha: 230, lineWeight: 10.4 };
-  static tailStyle = { startX: 277, endX: 397.75, alpha: 220, lineWeight: 11 };
+  static tailStyle = { startX: 277, endX: 397.75, alpha: 220, lineWeight: 18 };
   static bodyWave = null;
   static noticeMetrics = null;
   static baitStyles = {
@@ -1045,7 +1045,7 @@ const ratio = lifeRatio * birthLengthScale;
       animating,
       startX: tail.startX,
       endX: lerp(tail.startX, tail.endX, ratio),
-      lineWeight: tail.lineWeight * clamp(ratio, 0.95, 1.05),
+      lineWeight: tail.lineWeight * clamp(ratio, 0.7, 1.3),
     };
   }
 

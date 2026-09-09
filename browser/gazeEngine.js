@@ -722,7 +722,7 @@ function preload(options = {}) {
 
   faceMesh = ml5.faceMesh({
     maxFaces: maximumDetectedFaces,
-    rfnLand: true,
+    refineLandmarks: true,
     flipped: true,
   });
 }
