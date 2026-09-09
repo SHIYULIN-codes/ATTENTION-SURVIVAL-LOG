@@ -1045,7 +1045,7 @@ const ratio = lifeRatio * birthLengthScale;
       animating,
       startX: tail.startX,
       endX: lerp(tail.startX, tail.endX, ratio),
-      lineWeight: tail.lineWeight * clamp(ratio, 0.3, 1.7),
+      lineWeight: tail.lineWeight * clamp(ratio, 0.1, 2),
     };
   }
 
