@@ -991,12 +991,12 @@
     spcMins: ecoConst.minimumCounts,
     lifespanMs: Object.freeze({
       Predator: Object.freeze([
-        14 * 60 * 1000 * lifespanScale,
-        16 * 60 * 1000 * lifespanScale * lifeMaxScl,
+        16 * 60 * 1000 * lifespanScale,
+        25 * 60 * 1000 * lifespanScale * lifeMaxScl,
       ]),
       Parasite: Object.freeze([
-        14 * 60 * 1000,
-        20 * 60 * 1000,
+        16 * 60 * 1000,
+        30 * 60 * 1000,
       ]),
       Roamer: Object.freeze([
         13 * 60 * 1000 * lifespanScale,
@@ -1016,8 +1016,8 @@
       extendAnimMs: 1000,
       extendGlowAlph: 235,
       extendGlowBlur: 18,
-      visualScaleMin: 0.5,
-      visualScaleMax: 3.5,
+      visualScaleMin: 0.35,
+      visualScaleMax: 3.8,
     }),
     safeGraceMs: 6000,
     vitlDurMs: 10000,
